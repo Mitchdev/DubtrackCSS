@@ -6,7 +6,7 @@
     background-color: #42A5DC;
     opacity: 1;
     color: #111;
-    display: none;
+    /*display: none;*/
 }
 
 /* Top Bar */
@@ -68,31 +68,15 @@
 }
 
 /* Video box */
-#main-room .left_section {
-    background: #111;
-}
-#main_player .player_container {
-    padding: 0.0em;
-}
-#main_player {
-    padding-top: 0.2em;
-    padding-bottom: 0.2em;
-    padding-left: 0.2em;
-    padding-right: 0.2em;
-}
 #main_player .player_sharing {
-    background: #1A1A1A;
-    padding-left: 0.2em;
-    padding-right: 0.2em;
-
+    background: #111;
 }
 #main_player .player_sharing span:hover {
     color: #42A5DC;
 }
 #main_player:after {
-    /*background: rgba(66, 165, 220, 0.5);*/
-    background: #111;
-    opacity: 1;
+    background: #42A5DC;
+    opacity: 0.5;
 }
 .loading {
     color: #000;
@@ -266,14 +250,13 @@ ul.avatar-list li.downdub {
 
 /* DubX Menu */
 .relateX {
-    border-left: 5px solid rgba(66, 165, 220, 0.5) !important;
+    border-left: 6px solid rgba(66, 165, 220, 0.75) !important;
 }
 .liY .option {
     color: #45A5DC !important;
-    opacity: 1 !important;
+    opacity: 0.75 !important;
 }
 .isOption {
-    float: right !important;
-    color: #45A5DC !important;
+    color: #00BFFF !important;
     opacity: 0.75 !important;
 }
