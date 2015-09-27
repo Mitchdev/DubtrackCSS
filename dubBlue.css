@@ -1,14 +1,5 @@
 /* Alternative Color Scheme for Dubtrack.fm */
 
-/* Body */
-
-#dubtrack-video-realtime .toggle_videos {
-    background-color: #42A5DC;
-    opacity: 1;
-    color: #111;
-    /*display: none;*/
-}
-
 /* Top Bar */
 #roomFormUpdate {
     background: #000;
@@ -18,11 +9,6 @@
 /* Bottom Bar */
 #player-controller ul li a.playbtn:hover {
     background-color: #42A5DC;
-}
-#player-controller ul li a:hover, 
-#player-controller ul li a.voted {
-    background: #42A5DC;
-    opacity: 0.75;
 }
 #volume-div .ui-slider-handle {
     background: #42A5DC;
@@ -35,12 +21,19 @@
 #player-controller ul li a.dubup:hover, 
 #player-controller ul li a.dubup.voted {
     background: #42A5DC;
-    opacity: 0.75;
+    opacity: 1;
+}
+#player-controller ul li a:hover, 
+#player-controller ul li a.voted {
+    background: #42A5DC;
+    opacity: 1;
 }
 #player-controller .right {
-    color: #DDD;
     opacity: 1;
     border-left: 1px #202020 solid;
+}
+#player-controller .right li.copy span {
+    color: rgba(66, 165, 220, 1);
 }
 
 /* Left Side Menu */
@@ -66,39 +59,57 @@
     color: #42A5DC;
     text-transform: uppercase;
 }
+#private-messages .main-message-list ul.message-list li.message-item .message-content .username-handle, 
+#private-messages .message-details ul.message-list li.message-item .message-content .username-handle {
+    color: #42A5DC;
+    font-weight: bold;
+}
 
 /* Video box */
-#main_player .player_sharing {
+#main-room .left_section {
     background: #111;
+}
+#main_player .player_sharing {
+    background: #181818;
 }
 #main_player .player_sharing span:hover {
     color: #42A5DC;
 }
 #main_player:after {
     background: #42A5DC;
-    opacity: 0.5;
+    opacity: 0.75;
 }
 .loading {
     color: #000;
     background: #42A5DC;
-    opacity: 0.7;
+    opacity: 0.75;
 }
 #main_player .player_container .skip-el {
     background: #42A5DC;
-    opacity: 0.5;
+    opacity: 0.75;
 }
 #main_player .player_container .refresh-el {
     background: #42A5DC;
-    opacity: 0.5;
+    opacity: 0.75;
 }
 #main_player .player_container .videoquality-el {
     background: #42A5DC;
-    opacity: 0.5;
+    opacity: 0.75;
+}
+.comments-main .post-comment-container .comments-textarea-container {
+    background: #222;
+}
+.comments-main .post-comment-container textarea {
+    border: 1px #222 solid;
+    background: #181818;
 }
 .comments-main .post-comment-container .comments-textarea-container button {
     background: #42A5DC;
     color: #000;
-    opacity: 0.6;
+    opacity: 0.75;
+}
+.comments-main .comments-list .comment-item .comment-dub {
+    color: #5a5b5c;
 }
 button:hover {
     -moz-box-shadow: inset 0 -2px #42A5DC;
@@ -108,10 +119,23 @@ button:hover {
 .loading {
     color: #000;
     background: #42A5DC;
-    opacity: 0.5;
+    opacity: 0.75;
 }
+
 .comments-main .comments-list .comment-item header a {
     color: #42A5DC;
+}
+.comments-main .comments-list .comment-item .comment-dub .icon-arrow-up:hover, .comments-main .comments-list .comment-item .comment-dub .icon-arrow-up.dubvoted, .comments-main .comments-list .comment-item .comment-dub .icon-arrow-down:hover, .comments-main .comments-list .comment-item .comment-dub .icon-arrow-down.dubvoted {
+    color: #42A5DC;
+    opacity: 0.75;
+}
+.comments-main .comments-list .comment-item .comment-dub a.delete:hover {
+    color: #42A5DC;
+    opacity: 0.75;
+}
+.comments-main .comments-list .comment-item .icon-flag:hover {
+    color: #42A5DC;
+    opacity: 0.75;
 }
 
 /* Chat box */
@@ -135,24 +159,25 @@ button:hover {
 }
 #chat .chat-container ul.chat-main li.system {
     color: #42A5DC;
-    opacity: 0.7;
+    opacity: 1;
 }
 #chat .chat-container ul.chat-main li .activity-row .text p a.username, 
 #chat .chat-container ul.chat-main li .activity-row .text p a.username:hover, 
 #chat .chat-container ul.chat-main li .activity-row .text p a.username:visited {
     color: #42A5DC;
+    opacity: 1;
 }
 #chat .chat-container ul.chat-main li .activity-row .text span.username-handle {
     color: #42A5DC;
+    opacity: 1;
 }
 
 /* User tab */
 #main_avatar_room .avatar_tools a.loadRoomAva span {
     background: #42A5DC;
     color: #000;
-    opacity: 0.5;
-    -webkit-transition-delay: 0.33s;
-    transition: left 0.33s ease-in 0.0s;
+    opacity: 0.75;
+    transition: left 0.0s ease-in 0.0s;
 }
 ul.avatar-list li.mod:after, ul.avatar-list li.creator:after, ul.avatar-list li.admin:after, ul.avatar-list li.currentDJ:after {
     background: #42A5DC;
@@ -194,15 +219,23 @@ ul.avatar-list li.downdub {
 }
 
 /* Playlist Menu */
+#browser .browser-content-header {
+    color: #42A5DC;
+    background: #202020;
+}
 #browser .browser-content {
-    border: 2px #42A5DC solid;
+    border: 2px rgba(66, 165, 220, 0.75) solid;
+}
+#browser .browser-content-header .form input[type=text] {
+    outline: 1px #333 solid;
+    background: #181818;
 }
 #browser .browser-content-header .form a.active {
     outline-color: #42A5DC;
     opacity: 1;
 }
 #browser .browser-content-header .form a.search-btn {
-    color: white;
+    color: #000;
     background: #42A5DC;
     outline-color: #42A5DC;
     opacity: 0.75;
@@ -216,11 +249,14 @@ ul.avatar-list li.downdub {
     text-transform: uppercase;
     background: #42A5DC;
     color: #000;
-    font-weight: bold;
+}
+#browser .content-videos ul.browserPlaylistItems>li {
+    border-bottom: 1px #202020 solid;
+    background: #111;
+    opacity: 0.85;
 }
 #browser .content-videos ul.browserPlaylistItems>li span.timeDisplay {
-    color: #FFF;
-    font-weight: bold;
+    color: #000;
     background: #42A5DC;
     opacity: 1;
 }
@@ -241,11 +277,60 @@ ul.avatar-list li.downdub {
 }
 #browser .browser-content-header .close {
     color: #42A5DC;
-    opacity: 0.75;
+    opacity: 0.8;
 }
 #browser span.title {
     color: #42A5DC;
     font-size: 1.5em;
+}
+#addToPlaylistFloatContainer .create-playlist-input span {
+    background: #42A5DC;
+}
+#browser .content-videos ul.browserPlaylistItems>li .description p {
+    color: #42A5DC;
+}
+#browser .content-videos ul.browserPlaylistItems>li .display-success {
+    background: #42A5DC;
+    color: #000;
+}
+#browser .content-videos ul.browserPlaylistItems>li .actions a .spinner>div {
+    background: #42A5DC;
+}
+#browser .content-videos ul.browserPlaylistItems>li .display-error, 
+#browser .content-videos ul.browserPlaylistItems>li .display-success {
+    background: #42A5DC;
+}
+#results_video_api .playlist_info {
+    background: #111;
+}
+#results_video_api .playlist_info .playlist_filter {
+    border: 1px #202020 solid;
+}
+
+	/* Video Previews */
+.player .ui-slider-range {
+    background: #42A5DC;
+    position: absolute;
+    border: 0;
+    top: 0;
+    height: 100%;
+}
+.player .ui-slider-handle {
+    background: #42A5DC;
+}
+.player .controlContainer .progressContainer .progress, .player .controlContainer .progressContainer .loaded {
+    background: #42A5DC;
+}
+.player .tooltip {
+    color: #fff;
+    background: #42A5DC;
+}
+	/* Soundcloud */
+.player .loading, .player .buffering {
+    background: #42A5DC;
+}
+.player .replay, .player .error {
+    background: #42A5DC;
 }
 
 /* DubX Menu */
@@ -255,6 +340,9 @@ ul.avatar-list li.downdub {
 .liY .option {
     color: #45A5DC !important;
     opacity: 0.75 !important;
+}
+.liY:hover {
+    background: #222;
 }
 .isOption {
     color: #00BFFF !important;
