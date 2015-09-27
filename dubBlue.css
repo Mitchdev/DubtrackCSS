@@ -5,6 +5,15 @@
     https://www.dubtrack.fm/kris
 */
 
+/* Lobby */
+#container-room-list .room-item .user-count {
+    background: #42A5DC;
+}
+#container-room-list .room-item.active-room, 
+#container-room-list .room-item.userRoom {
+    outline: 1px solid rgba(0, 0, 0, 0);
+}
+
 /* Top Bar */
 #roomFormUpdate {
     background: #000;
@@ -39,6 +48,9 @@
 }
 #player-controller .right li.copy span {
     color: rgba(66, 165, 220, 1);
+}
+#player-controller ul li a.playbtn .queue-info {
+    background: #42A5DC;
 }
 
 /* Left Side Menu */
