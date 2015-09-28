@@ -32,7 +32,10 @@
     background: #42A5DC;
     opacity: 0.75;
 }
-#player-controller ul li a.dubup:hover, 
+#player-controller ul li a.dubup:hover {
+    background: #42A5DC;
+    opacity: 0.66;
+}
 #player-controller ul li a.dubup.voted {
     background: #42A5DC;
     opacity: 1;
@@ -42,7 +45,10 @@
     background: #42A5DC;
     opacity: 1;
 }
-#player-controller ul li a.dubdown:hover, 
+#player-controller ul li a.dubdown:hover {
+    background: #DC42A5;
+    opacity: 0.66;
+}
 #player-controller ul li a.dubdown.voted {
     background: #DC42A5;
     opacity: 1;
