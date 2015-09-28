@@ -42,6 +42,11 @@
     background: #42A5DC;
     opacity: 1;
 }
+#player-controller ul li a.dubdown:hover, 
+#player-controller ul li a.dubdown.voted {
+    background: #DC42A5;
+    opacity: 1;
+}
 #player-controller .right {
     opacity: 1;
     border-left: 1px #202020 solid;
@@ -210,10 +215,11 @@ ul.avatar-list li.mod:after, ul.avatar-list li.creator:after, ul.avatar-list li.
     border: 1px solid #42A5DC;
 }
 ul.avatar-list li.updub {
-    border: 1px solid #2ACF3F;
+    border: 1px solid #42A5DC;
 }
 ul.avatar-list li.downdub {
-    border: 1px solid #FF3535;
+/*    border: 1px solid #FF3535;*/
+    border: 1px solid #DC42A5;
 }
 
 /* Profile Page */
@@ -356,12 +362,12 @@ ul.avatar-list li.downdub {
 }
 .liY .option {
     color: #45A5DC !important;
-    opacity: 0.75 !important;
+    opacity: 1 !important;
 }
 .liY:hover {
     background: #222;
 }
 .isOption {
-    color: #00BFFF !important;
-    opacity: 0.75 !important;
+    color: #45A5DC !important;
+    opacity: 1 !important;
 }
