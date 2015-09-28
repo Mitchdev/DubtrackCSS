@@ -112,6 +112,10 @@
     background: #42A5DC;
     opacity: 0.75;
 }
+#main_player .player_container {
+    height: 25.45em;
+    background-image: url(https://raw.githubusercontent.com/PossiblyKris/css/master/ChilloutMusic_VideoBackground.png);
+}
 #main_player .player_container .skip-el {
     background: #42A5DC;
     opacity: 0.75;
