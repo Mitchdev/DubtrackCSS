@@ -11,7 +11,7 @@ a:hover, a:visited {
     color: #42A5DC;
 }
 #warning {
-  background: #42A5DC;
+    background: #42A5DC;
 }
 /* Lobby */
 #container-room-list .room-item .user-count {
@@ -180,10 +180,12 @@ button:hover {
     color: #42A5DC;
     opacity: 0.75;
 }
-
+#main_player .player_container .error-el {
+    background: 42A5DC;
+}
 /* Chat box */
 #chat .chat_tools .room-user-counter {
-    background: #42A5DC;
+    background: #42A5DC !important;
     color: #000;
     opacity: 0.75;
 }
@@ -193,7 +195,7 @@ button:hover {
 }
 #chat .chat-container .pusher-chat-widget-input button {
     color: #000;
-    background: #42A5DC;
+    background: #42A5DC !important;
     opacity: 0.75;
 }
 #chat .chat-container .pusher-chat-widget-input .icon-camera {
@@ -216,6 +218,9 @@ button:hover {
 }
 
 /* User tab */
+#main-room #mobile-room-menu a span.info-counter {
+    background: #42A5DC;
+}
 #main_avatar_room .avatar_tools a.loadRoomAva span {
     background: #42A5DC;
     color: #000;
