@@ -395,3 +395,15 @@ ul.avatar-list li.downdub {
     color: #AA74FE !important;
     opacity: 1 !important;
 }
+.BSSControl .storeBSSClass {
+    background: #AA74FE !important;
+}
+.RSSControl .storeRSSClass {
+    background: #AA74FE !important;
+}
+.reportControl .reportGo {
+    background: #AA74FE !important;
+}
+.requestControl .requestGo {
+    background: #AA74FE !important;
+}

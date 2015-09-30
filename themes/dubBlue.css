@@ -388,18 +388,22 @@ ul.avatar-list li.downdub {
 }
 .liY .option {
     color: #45A5DC !important;
-    opacity: 1 !important;
 }
 .liY:hover {
-    background: #222;
+    background: #222 !important;
 }
 .isOption {
     color: #45A5DC !important;
-    opacity: 1 !important;
 }
 .BSSControl .storeBSSClass {
     background: #42A5DC !important;
 }
-.reportControl .reportGo .requestGo {
+.RSSControl .storeRSSClass {
+    background: #42A5DC !important;
+}
+.reportControl .reportGo {
+    background: #42A5DC !important;
+}
+.requestControl .requestGo {
     background: #42A5DC !important;
 }
