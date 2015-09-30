@@ -216,6 +216,9 @@ button:hover {
 }
 
 /* User tab */
+#main-room #mobile-room-menu a span.info-counter {
+    background: #AA74FE;
+}
 #main_avatar_room .avatar_tools a.loadRoomAva span {
     background: #AA74FE !important;
     color: #000;
