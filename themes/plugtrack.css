@@ -299,6 +299,9 @@ ul.avatar-list li.downdub {
     background: #AA74FE;
     color: #000;
 }
+#browser .loading, #browser .clear-queue-browser-bth {
+    background: #AA74FE;
+}
 #browser .content-videos ul.browserPlaylistItems>li {
     border-bottom: 1px #202020 solid;
     background: #111;
@@ -321,7 +324,7 @@ ul.avatar-list li.downdub {
 #results_video_api a.tt-wrapper.playlist_type.playlist_type_private, 
 #results_video_api a.tt-wrapper.upload_btn.playlist_type_private {
     border: #AA74FE 1px solid;
-    color: #fff;
+    color: #000;
     background: #AA74FE;
 }
 #browser .browser-content-header .close {
