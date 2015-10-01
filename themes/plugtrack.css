@@ -137,7 +137,11 @@ a:hover, a:visited {
 }
 #main_player .player_container .videoquality-el {
     background: #AA74FE;
-    opacity: 0.75;
+    opacity: 0.5;
+}
+#main_player .player_container .hideVideo-el {
+    background: #AA74FE;
+    opacity: 0.5;
 }
 .comments-main .post-comment-container .comments-textarea-container {
     background: #222;
@@ -172,10 +176,6 @@ button:hover {
 }
 .comments-main .comments-list .comment-item .icon-flag:hover {
     color: #AA74FE;
-    opacity: 0.75;
-}
-#main_player .player_container .hideVideo-el {
-    background: #AA74FE;
     opacity: 0.75;
 }
 

@@ -135,8 +135,12 @@ a:hover, a:visited {
     opacity: 0.75;
 }
 #main_player .player_container .videoquality-el {
-    background: #42A5DC;
-    opacity: 0.75;
+    background: #AA74FE;
+    opacity: 0.5;
+}
+#main_player .player_container .hideVideo-el {
+    background: #AA74FE;
+    opacity: 0.5;
 }
 .comments-main .post-comment-container .comments-textarea-container {
     background: #222;
@@ -175,10 +179,6 @@ button:hover {
 }
 #main_player .player_container .error-el {
     background: #42A5DC;
-}
-#main_player .player_container .hideVideo-el {
-    background: #42A5DC;
-    opacity: 0.75;
 }
     
 /* Chat box */
