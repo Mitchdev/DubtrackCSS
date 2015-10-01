@@ -400,7 +400,7 @@ ul.avatar-list li.downdub {
     color: #AA74FE !important;
 }
 .BSSControl .storeBSSClass,
-.BSSControl .storeRSSClass,
+.RSSControl .storeRSSClass,
 .reportControl .reportGo,
 .requestControl .requestGo {
     background: #AA74FE !important;
