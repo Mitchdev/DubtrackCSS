@@ -11,7 +11,7 @@ a:hover, a:visited {
     color: #AA74FE;
 }
 #warning {
-  background: #AA74FE;
+    background: #AA74FE;
 }
 /* Lobby */
 #container-room-list .room-item .user-count {
