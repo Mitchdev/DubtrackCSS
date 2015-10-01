@@ -390,7 +390,7 @@ ul.avatar-list li.downdub {
 
 /* DubX Menu */
 .isSwordful {
-    border-left: 5px solid #AA74FE !important;
+    border-left: 0px solid #AA74FE !important;
 }
 .isSwordful .verSwordful .Javaling,
 .isSwordful .optionSwordful {
