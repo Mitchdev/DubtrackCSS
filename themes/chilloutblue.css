@@ -458,21 +458,16 @@ ul.avatar-list li.downdub {
 .isSwordful {
     border-left: 5px solid #42A5DC !important;
 }
-.isSwordful .optionSwordful .titleClass .istitle {
+.isSwordful .verSwordful .Javaling,
+.isSwordful .optionSwordful {
+    color: #CCC;
+}    
+.optionSwordful .titleClass .istitle {
     color: #42A5DC !important;
 }
-.isSwordful .optionSwordful {
-    color: #CCC !important;
-}
-.BSSControl .storeBSSClass {
-    background: #42A5DC !important;
-}
-.RSSControl .storeRSSClass {
-    background: #42A5DC !important;
-}
-.reportControl .reportGo {
-    background: #42A5DC !important;
-}
+.BSSControl .storeBSSClass,
+.BSSControl .storeRSSClass,
+.reportControl .reportGo,
 .requestControl .requestGo {
     background: #42A5DC !important;
 }
