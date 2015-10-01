@@ -115,8 +115,8 @@ a:hover, a:visited {
     color: #42A5DC;
 }
 #main_player:after {
-    background: #42A5DC;
-    opacity: 0.75;
+    background: #181818;
+    opacity: 1;
 }
 .loading {
     color: #000;
@@ -124,8 +124,7 @@ a:hover, a:visited {
     opacity: 0.75;
 }
 #main_player .player_container {
-    height: 25.45em;
-    background-image: url(https://raw.githubusercontent.com/PossiblyKris/css/master/ChilloutMusic_VideoBackground.png);
+    background-image: url(https://raw.githubusercontent.com/PossiblyKris/DubtrackCSS/master/assets/ByKris.png);
 }
 #main_player .player_container .skip-el {
     background: #42A5DC;
@@ -181,8 +180,9 @@ button:hover {
     opacity: 0.75;
 }
 #main_player .player_container .error-el {
-    background: 42A5DC;
+    background: #42A5DC;
 }
+
 /* Chat box */
 #chat .chat_tools .room-user-counter {
     background: #42A5DC !important;
@@ -203,18 +203,91 @@ button:hover {
     opacity: 0.75;
 }
 #chat .chat-container ul.chat-main li.system {
-    color: #42A5DC;
+    color: #DC42A5;
     opacity: 1;
 }
+#chat .chat-container ul.chat-main li .activity-row .text span.username-handle {
+    color: #FFDD6F;
+    opacity: 1;
+    font-weight: 400
+}
+
+/* Username Colors */
+    /* Classes 
+#chat .chat-container ul.chat-main li.group-user .activity-row .text p a.username {
+    color: #42A5DC !important;
+    opacity: 1;
+}
+#chat .chat-container ul.chat-main li.group-dj .activity-row .text p a.username {
+    color: #DC42A5 !important;
+    opacity: 1;
+}
+#chat .chat-container ul.chat-main li.group-mods .activity-row .text p a.username {
+    color: #42A5DC !important;
+    opacity: 1;
+	font-weight: 600
+}
+#chat .chat-container ul.chat-main li.group-owner .activity-row .text p a.username {
+    color: #42A5DC !important;
+    opacity: 1;
+	font-weight: 600
+}
+#chat .chat-container ul.chat-main li.group-admin .activity-row .text p a.username {
+    color: #42A5DC !important;
+    opacity: 1;
+	font-weight: 600
+}
+
+/* Special User Colours */
 #chat .chat-container ul.chat-main li .activity-row .text p a.username, 
 #chat .chat-container ul.chat-main li .activity-row .text p a.username:hover, 
 #chat .chat-container ul.chat-main li .activity-row .text p a.username:visited {
     color: #42A5DC;
     opacity: 1;
+    font-weight: 400
 }
-#chat .chat-container ul.chat-main li .activity-row .text span.username-handle {
+
+#chat .chat-container ul.chat-main li.user-5600e1bf2e803803000fee40 .activity-row .text p a.username { /* Roomba */
+    color: #DC42A5;
+    font-size: 14px;
+    font-weight: 600;
+    text-shadow: 0px 0px 1px #000;
+}
+#chat .chat-container ul.chat-main li.user-5600e1bf2e803803000fee40 .activity-row .text { /* Roomba */
+	color: #DC42A5;
+}
+
+#chat .chat-container ul.chat-main li.user-55f748be44809b0300f885dc .activity-row .text p a.username, /* Molly */
+#chat .chat-container ul.chat-main li.user-55ff52375335f703008b0d38 .activity-row .text p a.username, /* kris */
+#chat .chat-container ul.chat-main li.user-55ff6b62d0ce89030080f3c6 .activity-row .text p a.username, /* fishy */
+#chat .chat-container ul.chat-main li.user-55ffc1b6196f170300cc0ecf .activity-row .text p a.username, /* stray */
+#chat .chat-container ul.chat-main li.user-55ff2e401cef3e0300604c2c .activity-row .text p a.username, /* blau */
+#chat .chat-container ul.chat-main li.user-53acb44af60889020013e468 .activity-row .text p a.username, /* notturno */
+#chat .chat-container ul.chat-main li.user-55ff48c19ada760300c04eda .activity-row .text p a.username, /* chillstep */
+#chat .chat-container ul.chat-main li.user-55ffba16196f170300cc0e3b .activity-row .text p a.username, /* frenchie */
+#chat .chat-container ul.chat-main li.user-5600004ce3667d0300dcd9d3 .activity-row .text p a.username, /* cherry */
+#chat .chat-container ul.chat-main li.user-55ff8bf7196f170300cc0b2a .activity-row .text p a.username, /* mitch */
+#chat .chat-container ul.chat-main li.user-56057c33aab9a90300d8aad9 .activity-row .text p a.username, /* doctorzetin */
+#chat .chat-container ul.chat-main li.user-56003d36239f1303009c8530 .activity-row .text p a.username, /* aber */
+#chat .chat-container ul.chat-main li.user-55ff46735335f703008b0be6 .activity-row .text p a.username, /* curls */
+#chat .chat-container ul.chat-main li.user-55ff2805f2db2b030087e5d1 .activity-row .text p a.username, /* phil */
+#chat .chat-container ul.chat-main li.user-56015afd2d5038030094d7d4 .activity-row .text p a.username, /* calachi */
+#chat .chat-container ul.chat-main li.user-55ff9b861564a403003f4fec .activity-row .text p a.username, /* anderz */
+#chat .chat-container ul.chat-main li.user-56001ef1d2972003005ab233 .activity-row .text p a.username, /* bockness*/
+#chat .chat-container ul.chat-main li.user-55ff5b8af403a30300df114d .activity-row .text p a.username, /* swanmeat*/
+#chat .chat-container ul.chat-main li.user-55ff56cdd0ce89030080f2d0 .activity-row .text p a.username, /* braincomb*/
+#chat .chat-container ul.chat-main li.user-56008b05239f1303009c92f4 .activity-row .text p a.username, /* mawu */
+#chat .chat-container ul.chat-main li.user-55ffa427196f170300cc0ccc .activity-row .text p a.username, /* geologic*/
+#chat .chat-container ul.chat-main li.user-55ffced7196f170300cc0f75 .activity-row .text p a.username, /* theo*/
+#chat .chat-container ul.chat-main li.user-55ffc4d41564a403003f52b9 .activity-row .text p a.username, /* muchlove */
+#chat .chat-container ul.chat-main li.user-55ffaa731564a403003f50d5 .activity-row .text p a.username, /* axle */
+#chat .chat-container ul.chat-main li.user-5600a1f0bfb6340300a2dd65 .activity-row .text p a.username, /* zikelir */
+#chat .chat-container ul.chat-main li.user-5600d6842d5038030094c623 .activity-row .text p a.username, /* banksy */
+#chat .chat-container ul.chat-main li.user-560347f4b585d003001b2f8c .activity-row .text p a.username /* chief */ 
+{
     color: #42A5DC;
-    opacity: 1;
+    opacity: 0.9;
+    font-weight: 600
 }
 
 /* User tab */
@@ -244,7 +317,6 @@ ul.avatar-list li.updub {
     border: 1px solid #42A5DC;
 }
 ul.avatar-list li.downdub {
-/*    border: 1px solid #FF3535;*/
     border: 1px solid #DC42A5;
 }
 
