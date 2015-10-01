@@ -384,16 +384,13 @@ ul.avatar-list li.downdub {
 
 /* DubX Menu */
 .isSwordful {
-    background: #111;
-    border-left: 5px solid #AA74FE;
+    border-left: 5px solid #AA74FE !important;
 }
 .isSwordful .optionSwordful .titleClass .istitle {
-    margin: 13px 27px 13px 28px;
-    color: #AA74FE;
-    border-bottom: 1px solid #444;
+    color: #AA74FE !important;
 }
 .isSwordful .optionSwordful {
-    color: #CCC;
+    color: #CCC !important;
 }
 .BSSControl .storeBSSClass {
     background: #AA74FE !important;
