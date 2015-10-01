@@ -420,17 +420,17 @@ ul.avatar-list li.downdub {
 }
 
 /* DubX Menu */
-.relateX {
-    border-left: 6px solid rgba(66, 165, 220, 0.75) !important;
+.isSwordful {
+    background: #111;
+    border-left: 5px solid #42A5DC;
 }
-.liY .option {
-    color: #45A5DC !important;
+.isSwordful .optionSwordful .titleClass .istitle {
+    margin: 13px 27px 13px 28px;
+    color: #42A5DC;
+    border-bottom: 1px solid #444;
 }
-.liY:hover {
-    background: #222 !important;
-}
-.isOption {
-    color: #45A5DC !important;
+.isSwordful .optionSwordful {
+    color: #CCC;
 }
 .BSSControl .storeBSSClass {
     background: #42A5DC !important;
