@@ -202,11 +202,8 @@ button:hover {
     opacity: 0.75;
 }
 #chat .chat-container ul.chat-main li.system {
-    color: #C42E3B;
+    color: #AA74FE;
     opacity: 1;
-}
-#chat .chat-container ul.chat-main li.system-error {
-    color: #C42E3B;
 }
 #chat .chat-container ul.chat-main li .activity-row .text p a.username, 
 #chat .chat-container ul.chat-main li .activity-row .text p a.username:hover, 
