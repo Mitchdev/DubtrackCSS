@@ -185,7 +185,8 @@ button:hover {
 #main_player .player_container .hideVideo-el {
     background: #42A5DC;
     opacity: 0.75;
-
+}
+    
 /* Chat box */
 #chat .chat_tools .room-user-counter {
     background: #42A5DC !important;
