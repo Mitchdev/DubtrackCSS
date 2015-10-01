@@ -254,7 +254,7 @@ button:hover {
     opacity: 1;
     font-weight: 400
 }
-#chat .chat-container ul.chat-main li.user-5600e1bf2e803803000fee40 .activity-row .text p a.username { /* Roomba */
+#chat .chat-container ul.chat-main li.user-5600e1bf2e803803000fee40 .activity-row .text p a.username, /* Roomba */
 #chat .chat-container ul.chat-main li.user-55ff1b594c828c03008bd5f7 .activity-row .text p a.username { /* Chillbot */
     color: #DC42A5 !important;
     font-size: 14px;
