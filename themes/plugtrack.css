@@ -125,7 +125,7 @@ a:hover, a:visited {
 }
 #main_player .player_container {
     height: 25.45em;
-    background-image: url(https://raw.githubusercontent.com/PossiblyKris/DubtrackCSS/master/assets/ByKris.png);
+    background-image: url(https://raw.githubusercontent.com/PossiblyKris/DubtrackCSS/master/assets/bykris.png);
 }
 #main_player .player_container .skip-el {
     background: #AA74FE;
