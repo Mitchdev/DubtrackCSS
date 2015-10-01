@@ -142,6 +142,9 @@ a:hover, a:visited {
     background: #42A5DC;
     opacity: 0.75;
 }
+#main_player .player_container .error-el {
+    background: #42A5DC;
+}
 .comments-main .post-comment-container .comments-textarea-container {
     background: #222;
 }
@@ -176,9 +179,6 @@ button:hover {
 .comments-main .comments-list .comment-item .icon-flag:hover {
     color: #42A5DC;
     opacity: 0.75;
-}
-#main_player .player_container .error-el {
-    background: #42A5DC;
 }
     
 /* Chat box */

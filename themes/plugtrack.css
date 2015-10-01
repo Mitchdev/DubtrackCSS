@@ -143,6 +143,9 @@ a:hover, a:visited {
     background: #AA74FE;
     opacity: 0.75;
 }
+#main_player .player_container .error-el {
+    background: #AA74FE;
+}
 .comments-main .post-comment-container .comments-textarea-container {
     background: #222;
 }
