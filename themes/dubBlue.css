@@ -109,13 +109,13 @@ a:hover, a:visited {
     background: #111;
 }
 #main_player .player_sharing {
-    background: #181818;
+    background: #111;
 }
 #main_player .player_sharing span:hover {
     color: #42A5DC;
 }
 #main_player:after {
-    background: #181818;
+    background: #111;
     opacity: 1;
 }
 .loading {
