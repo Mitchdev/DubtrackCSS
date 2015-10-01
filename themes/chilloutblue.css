@@ -136,11 +136,11 @@ a:hover, a:visited {
 }
 #main_player .player_container .videoquality-el {
     background: #42A5DC;
-    opacity: 0.5;
+    opacity: 0.75;
 }
 #main_player .player_container .hideVideo-el {
     background: #42A5DC;
-    opacity: 0.5;
+    opacity: 0.75;
 }
 .comments-main .post-comment-container .comments-textarea-container {
     background: #222;
