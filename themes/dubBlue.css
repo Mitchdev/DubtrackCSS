@@ -212,14 +212,10 @@ button:hover {
     opacity: 1;
     font-weight: 400
 }
-#chat .ChatDelete {
-    color: #42A5DC;
-    opacity: 0.0;
-    font-size: 0.65em;
-}
-#chat .ChatDelete:hover {
-    color: #42A5DC;
-    opacity: 1;
+#chat .chat-container ul.chat-main li:hover>.stream-item-content .chatDelete, 
+#chat .chat-container ul.chat-main li .stream-item-content:focus>.chatDelete {
+    color: #42A5DC !important;
+    opacity: 0.75;
     font-size: 0.65em;
 }
 
@@ -431,7 +427,7 @@ ul.avatar-list li.downdub {
 }
 .isSwordful .verSwordful .Javaling,
 .isSwordful .optionSwordful {
-    color: #CCC;
+    color: #CCC !important;
 }    
 .optionSwordful .titleClass .istitle {
     color: #42A5DC !important;
