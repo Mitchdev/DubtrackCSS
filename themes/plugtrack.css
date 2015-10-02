@@ -220,7 +220,13 @@ button:hover {
 }
 #chat .ChatDelete {
     color: #AA74FE;
-    opacity: 0.5;
+    opacity: 0.0;
+    font-size: 0.65em;
+}
+#chat .ChatDelete:hover {
+    color: #AA74FE;
+    opacity: 1;
+    font-size: 0.65em;
 }
 
 /* User tab */
