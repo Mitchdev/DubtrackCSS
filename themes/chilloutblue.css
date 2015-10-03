@@ -341,6 +341,15 @@ ul.avatar-list li.downdub {
     color: #000;
     background: #42A5DC;
 }
+#profileMainSection .profileView .rewindProfile {
+    border: 5px solid #42A5DC;
+}
+#profileMainSection .profileView .infoProfile button.message.unfollow {
+    background: #DC42A5;
+}
+#profileMainSection .profileView .infoProfile h2 .check_username_info.error {
+    color: #DC42A5;
+}
 
 /* Playlist Menu */
 #browser .browser-content-header {
