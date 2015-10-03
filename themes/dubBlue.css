@@ -41,7 +41,7 @@ a:hover, a:visited {
 }
 #player-controller ul li.infoContainer .progressBg {
     background: #42A5DC;
-    opacity: 0.75;
+    opacity: 1;
 }
 #player-controller ul li a.dubup:hover {
     background: #42A5DC;

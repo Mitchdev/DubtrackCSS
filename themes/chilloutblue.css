@@ -41,7 +41,7 @@ a:hover, a:visited {
 }
 #player-controller ul li.infoContainer .progressBg {
     background: #42A5DC;
-    opacity: 0.75;
+    opacity: 1;
 }
 #player-controller ul li a.dubup:hover {
     background: #42A5DC;
@@ -285,10 +285,11 @@ button:hover {
 #chat .chat-container ul.chat-main li.user-55ffc4d41564a403003f52b9 .activity-row .text p a.username, /* muchlove */
 #chat .chat-container ul.chat-main li.user-55ffaa731564a403003f50d5 .activity-row .text p a.username, /* axle */
 #chat .chat-container ul.chat-main li.user-5600a1f0bfb6340300a2dd65 .activity-row .text p a.username, /* zikelir */
+#chat .chat-container ul.chat-main li.user-5604ed62c4f5dd03004bbf4b .activity-row .text p a.username, /* police */
 #chat .chat-container ul.chat-main li.user-5600d6842d5038030094c623 .activity-row .text p a.username, /* banksy */
 #chat .chat-container ul.chat-main li.user-560347f4b585d003001b2f8c .activity-row .text p a.username  /* chief */ 
 {
-    opacity: 0.9;
+    opacity: 1;
     font-weight: 600
 }
 
