@@ -369,14 +369,14 @@ ul.avatar-list li.downdub {
 /* Playlist Menu */
 #browser .browser-content-header {
     color: #519CD7;
-    background: #202020;
+    background: #111;
 }
 #browser .browser-content {
     border: 2px rgba(81, 156, 215, 0.75) solid;
 }
 #browser .browser-content-header .form input[type=text] {
     outline: 1px #333 solid;
-    background: #181818;
+    background: #202020;
 }
 #browser .browser-content-header .form a.active {
     outline-color: #519CD7;
@@ -400,6 +400,7 @@ ul.avatar-list li.downdub {
 }
 #browser .loading, #browser .clear-queue-browser-bth {
     background: #519CD7;
+    opacity: 0.75;
 }
 #browser .content-videos ul.browserPlaylistItems>li {
     border-bottom: 1px #202020 solid;
@@ -460,6 +461,7 @@ ul.avatar-list li.downdub {
 #browser .sidebar #room-lock-queue {
     color: #000;
     background: #519CD7;
+    opacity: 0.75;
 }
 
 	/* Video Previews */
