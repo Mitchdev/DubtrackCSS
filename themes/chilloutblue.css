@@ -85,10 +85,6 @@ a:hover, a:visited {
 }
 
 /* Right Side Menu (Private Messages) */
-#private-messages .main-message-list ul.message-list li.message-item .message-content h3, 
-#private-messages .message-details ul.message-list li.message-item .message-content h3 {
-    color: #519CD7;
-}
 #main-menu-right a.close-menu span {
     font-size: 1em;
     color: #519CD7;
@@ -97,6 +93,14 @@ a:hover, a:visited {
 #private-messages .message-details .message-header a {
     color: #519CD7;
     text-transform: uppercase;
+}
+#private-messages .main-message-list ul.message-list li.message-item .message-content h3, 
+#private-messages .message-details ul.message-list li.message-item .message-content h3 {
+    color: #519CD7;
+}
+#private-messages .main-message-list ul.message-list li.message-item.new-message:before, 
+#private-messages .message-details ul.message-list li.message-item.new-message:before {
+    background: #519CD7;
 }
 #private-messages .main-message-list ul.message-list li.message-item .message-content .username-handle, 
 #private-messages .message-details ul.message-list li.message-item .message-content .username-handle {
@@ -307,13 +311,16 @@ button:hover {
     opacity: 0.75;
     transition: left 0.0s ease-in 0.0s;
 }
-ul.avatar-list li.mod:after, ul.avatar-list li.creator:after, ul.avatar-list li.admin:after, ul.avatar-list li.currentDJ:after {
-    background: #519CD7;
-    opacity: 0.95;
-    color: #000;
-}
-ul.avatar-list li.resident-dj:after {
+ul.avatar-list li p.username {
     color: #519CD7;
+}
+ul.avatar-list li.admin:after, ul.avatar-list li.co-owner:after, ul.avatar-list li.creator:after, ul.avatar-list li.currentDJ:after, ul.avatar-list li.manager:after, ul.avatar-list li.mod:after, ul.avatar-list li.resident-dj:after, ul.avatar-list li.vip:after {
+    opacity: 1;
+    color: #519CD7;
+}
+#user_popover {
+    background: #111;
+    border: 1px solid #519CD7;
 }
 #user_popover .actions a {
     color: #111;
@@ -323,10 +330,6 @@ ul.avatar-list li.resident-dj:after {
 #user_popover .actions a input {
     border-bottom: 1px solid #FFF;
     background: #111;
-}
-#user_popover {
-    background: #111;
-    border: 1px solid #519CD7;
 }
 ul.avatar-list li.updub {
     border: 1px solid #519CD7;
@@ -453,6 +456,10 @@ ul.avatar-list li.downdub {
 }
 #results_video_api .playlist_info .playlist_filter {
     border: 1px #202020 solid;
+}
+#browser .sidebar #room-lock-queue {
+    color: #000;
+    background: #519CD7;
 }
 
 	/* Video Previews */
