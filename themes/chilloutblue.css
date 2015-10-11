@@ -149,6 +149,9 @@ a:hover, a:visited {
 #main_player .player_container .error-el {
     background: #519CD7;
 }
+#main_player .player_container .placeholder h5 span {
+  color: #519CD7;
+}
 .comments-main .post-comment-container .comments-textarea-container {
     background: #222;
 }
@@ -211,20 +214,27 @@ button:hover {
 #chat .chat-container ul.chat-main li.system {
     color: #D7519C;
     opacity: 1;
+    font-size: .6em;
+    background: #202020;
 }
 #chat .chat-container ul.chat-main li.system-error {
     color: #D7519C;
+    font-size: .6em;
 }
 #chat .chat-container ul.chat-main li .activity-row .text span.username-handle {
     color: #FFDD6F;
     opacity: 1;
-    font-weight: 400
+    font-weight: 400;
 }
 #chat .chat-container ul.chat-main li:hover>.stream-item-content .chatDelete, 
 #chat .chat-container ul.chat-main li .stream-item-content:focus>.chatDelete {
     color: #519CD7 !important;
     opacity: 0.75;
-    font-size: 0.65em;
+    font-size: 0.6em;
+}
+#chat .chat-container ul.chat-main li .activity-row .meta-info .username {
+    font-size: .6em;
+    color: #519CD7;
 }
 
 /* Username Colors */
@@ -398,9 +408,25 @@ ul.avatar-list li.downdub {
     background: #519CD7;
     color: #000;
 }
-#browser .loading, #browser .clear-queue-browser-bth {
+#browser .loading, 
+#browser .clear-queue-browser-bth,
+#browser .pause-queue-browser-bth {
+    color: #000;
     background: #519CD7;
-    opacity: 0.75;
+    opacity: 1;
+    outline: none;
+}
+#browser .sidebar #room-lock-queue {
+    color: #000;
+    background: #519CD7;
+    opacity: 1;
+    font-size: 14px;
+}
+#browser .sidebar #room-lock-queue.locked {
+    color: #000;
+    background: #519CD7;
+    opacity: 1;
+    font-size: 14px;
 }
 #browser .content-videos ul.browserPlaylistItems>li {
     border-bottom: 1px #202020 solid;
@@ -457,11 +483,6 @@ ul.avatar-list li.downdub {
 }
 #results_video_api .playlist_info .playlist_filter {
     border: 1px #202020 solid;
-}
-#browser .sidebar #room-lock-queue {
-    color: #000;
-    background: #519CD7;
-    opacity: 0.75;
 }
 
 	/* Video Previews */
