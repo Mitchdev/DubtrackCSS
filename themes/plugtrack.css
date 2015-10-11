@@ -14,6 +14,14 @@ a:visited {
 #warning {
     background: #AA74FE;
 }
+#roomFormUpdate, #roomInfoModal {
+    background: #111;
+    border: 2px solid #AA74FE;
+}
+#roomFormUpdate .modal-header, #roomInfoModal .modal-header {
+    background: #181818;
+}
+
 /* Lobby                                = = = = = = = = = = =*/
 #container-room-list .room-item .user-count {
     background: #AA74FE;
