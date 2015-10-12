@@ -3,6 +3,7 @@
     Blue theme and UI improvements
     Made by @Kris
     https://www.dubtrack.fm/kris
+    https://github.com/PossiblyKris
 */
 #main-loading {
     background: #AA74FE;
@@ -234,9 +235,12 @@ button:hover {
     font-size: .6em;
 }
 #chat .chat-container ul.chat-main li .activity-row .text span.username-handle {
-    color: #FFDD6F;
+    color: #CCC;
     opacity: 1;
     font-weight: 400;
+}
+#chat .chat-container ul.chat-main li .activity-row .text span.username-handle[style="color: rgba(255, 0, 255, 0.8);"] {
+    color: #FFDD6F;
 }
 #chat .chat-container ul.chat-main li:hover>.stream-item-content .chatDelete, 
 #chat .chat-container ul.chat-main li .stream-item-content:focus>.chatDelete {
@@ -248,6 +252,7 @@ button:hover {
     font-size: .6em;
     color: #AA74FE;
 }
+
 
 /* Username Colors                      = = = = = = = = = = =*/
 #chat .chat-container ul.chat-main li .activity-row .text p a.username, 
