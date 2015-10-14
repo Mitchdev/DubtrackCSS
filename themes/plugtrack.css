@@ -310,6 +310,10 @@ button:hover {
 #chat .chat-container ul.chat-main li.chat-me-command-joined {
     color: #999;
 }
+#chat .chat-container ul.chat-main li .activity-row .text p {
+    word-break: break-word;
+    word-wrap: break-word;
+}
 
 /* Username Colors                      = = = = = = = = = = =*/
     /* Classes 
