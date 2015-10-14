@@ -294,8 +294,8 @@ button:hover {
 #chat .chat-container ul.chat-main li .activity-row .text span.username-handle[style="color: rgba(255, 0, 255, 0.8);"] {
     color: #FFDD6F !important;
 }
-#chat .chat-container ul.chat-main li:hover>.stream-item-content .chatDelete, 
-#chat .chat-container ul.chat-main li .stream-item-content:focus>.chatDelete {
+#chat .chat-container ul.chat-main li:focus .chatDelete, 
+#chat .chat-container ul.chat-main li:hover .chatDelete {
     color: #519CD7 !important;
     opacity: 0.75;
     font-size: 0.6em;
@@ -307,6 +307,10 @@ button:hover {
 #chat .chat-container ul.chat-main li.chat-welcome-message {
 	color: #519CD7;
 }
+#chat .chat-container ul.chat-main li.chat-me-command-joined {
+    color: #999;
+}
+
 
 /* Username Colors                      = = = = = = = = = = =*/
     /* Classes 
@@ -342,17 +346,17 @@ button:hover {
     opacity: 1;
     font-weight: 400
 }
+#chat .chat-container ul.chat-main li.user-5600e1bf2e803803000fee40, /* Roomba */
+#chat .chat-container ul.chat-main li.user-55ff1b594c828c03008bd5f7 { /* Chillbot */
+	background: #181818;
+	box-shadow: 8px 0px 0px #181818;
+}
 #chat .chat-container ul.chat-main li.user-5600e1bf2e803803000fee40 .activity-row .text p a.username, /* Roomba */
 #chat .chat-container ul.chat-main li.user-55ff1b594c828c03008bd5f7 .activity-row .text p a.username { /* Chillbot */
     color: #D7519C !important;
     font-size: 14px;
     font-weight: 600;
     text-shadow: 0px 0px 1px #000;
-}
-#chat .chat-container ul.chat-main li.user-5600e1bf2e803803000fee40, /* Roomba */
-#chat .chat-container ul.chat-main li.user-55ff1b594c828c03008bd5f7 { /* Chillbot */
-	background: #181818;
-	box-shadow: 8px 0px 0px #181818;
 }
 #chat .chat-container ul.chat-main li.user-55f748be44809b0300f885dc .activity-row .text p a.username, /* Molly */
 #chat .chat-container ul.chat-main li.user-55ff52375335f703008b0d38 .activity-row .text p a.username, /* kris */
@@ -621,6 +625,10 @@ ul.avatar-list li.downdub {
 .requestControl .requestGo {
     background: #519CD7 !important;
 }
+.isSwordful ul li.optionClass.isFacebook a,
+.isSwordful ul li.optionClass.isTwitter a {
+    color: #ccc !important;
+}
 
 /* Not logged in                            = = = = = = = = = = =*/
 #login-model-window .login-model-container {
@@ -642,9 +650,13 @@ ul.avatar-list li.downdub {
     background: #519CD7;
     color: #111;
 }
-#login-model-window .login-model-container .err-message, 
-#login-model-window .login-model-container .success-message {
+#login-model-window .login-model-container .err-message {
     color: #D7519C;
     border: 1px solid #D7519C;
+    font-size: 0.8em;
+}
+#login-model-window .login-model-container .success-message {
+    color: #519CD7;
+    border: 1px solid #519CD7;
     font-size: 0.8em;
 }
