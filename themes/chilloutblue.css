@@ -327,33 +327,6 @@ button:hover {
     color: #005d99;
 }
 
-
-/* Username Colors                      = = = = = = = = = = =*/
-    /* Classes 
-#chat .chat-container ul.chat-main li.group-user .activity-row .text p a.username {
-    color: #519CD7 !important;
-    opacity: 1;
-}
-#chat .chat-container ul.chat-main li.group-dj .activity-row .text p a.username {
-    color: #D7519C !important;
-    opacity: 1;
-}
-#chat .chat-container ul.chat-main li.group-mods .activity-row .text p a.username {
-    color: #519CD7 !important;
-    opacity: 1;
-	font-weight: 600
-}
-#chat .chat-container ul.chat-main li.group-owner .activity-row .text p a.username {
-    color: #519CD7 !important;
-    opacity: 1;
-	font-weight: 600
-}
-#chat .chat-container ul.chat-main li.group-admin .activity-row .text p a.username {
-    color: #519CD7 !important;
-    opacity: 1;
-	font-weight: 600
-}
-
 /* Special User Colours                 = = = = = = = = = = =*/
 #chat .chat-container ul.chat-main li .activity-row .text p a.username, 
 #chat .chat-container ul.chat-main li .activity-row .text p a.username:hover, 
@@ -362,6 +335,9 @@ button:hover {
     opacity: 1;
     font-weight: 400
 }
+#chat .chat-container ul.chat-main li.user-52c8efcf37e22b0200000001,
+#chat .chat-container ul.chat-main li.user-52c8efcf37e22b0200000005,
+#chat .chat-container ul.chat-main li.user-52c8efcf37e22b0200000008,
 #chat .chat-container ul.chat-main li.user-5600e1bf2e803803000fee40, /* Roomba */
 #chat .chat-container ul.chat-main li.user-55ff1b594c828c03008bd5f7 { /* Chillbot */
 	background: #181818;
@@ -370,9 +346,14 @@ button:hover {
 #chat .chat-container ul.chat-main li.user-5600e1bf2e803803000fee40 .activity-row .text p a.username, /* Roomba */
 #chat .chat-container ul.chat-main li.user-55ff1b594c828c03008bd5f7 .activity-row .text p a.username { /* Chillbot */
     color: #D7519C !important;
-    font-size: 14px;
     font-weight: 600;
     text-shadow: 0px 0px 1px #000;
+}
+#chat .chat-container ul.chat-main li.user-52c8efcf37e22b0200000001 .activity-row .text p a.username, /* nambok */
+#chat .chat-container ul.chat-main li.user-52c8efcf37e22b0200000005 .activity-row .text p a.username, /* joe */
+#chat .chat-container ul.chat-main li.user-52c8efcf37e22b0200000008 .activity-row .text p a.username {/* alex */
+    opacity: 1;
+    font-weight: 600;
 }
 #chat .chat-container ul.chat-main li.user-55f748be44809b0300f885dc .activity-row .text p a.username, /* Molly */
 #chat .chat-container ul.chat-main li.user-55ff52375335f703008b0d38 .activity-row .text p a.username, /* kris */
@@ -404,7 +385,7 @@ button:hover {
 #chat .chat-container ul.chat-main li.user-560347f4b585d003001b2f8c .activity-row .text p a.username  /* chief */ 
 {
     opacity: 1;
-    font-weight: 600
+    font-weight: 600;
 }
 
 /* User tab                             = = = = = = = = = = =*/
@@ -421,16 +402,29 @@ button:hover {
 ul.avatar-list li p.username {
     color: #519CD7;
 }
-ul.avatar-list li.admin:after, 
-ul.avatar-list li.co-owner:after, 
-ul.avatar-list li.creator:after, 
-ul.avatar-list li.currentDJ:after, 
-ul.avatar-list li.manager:after, 
-ul.avatar-list li.mod:after, 
-ul.avatar-list li.resident-dj:after, 
-ul.avatar-list li.vip:after {
-    opacity: 1;
+ul.avatar-list li.admin:after {
+    color: #D7519C!important;
+}
+ul.avatar-list li.creator:after {
+    color: #D7519C!important;
+}
+ul.avatar-list li.co-owner:after {
     color: #519CD7;
+}
+ul.avatar-list li.manager:after {
+    color: #519CD7;
+}
+ul.avatar-list li.mod:after {
+    color: #519CD7;
+}
+ul.avatar-list li.vip:after {
+    color: #519CD7;
+}
+ul.avatar-list li.resident-dj:after {
+    color: #519CD7;
+}
+ul.avatar-list li.currentDJ:after {
+    color: #FFDD6F;
 }
 #user_popover {
     background: #111;
