@@ -1,6 +1,6 @@
 /*
     Custom CSS for Dubtrack.fm
-    Blue theme and UI improvements
+    Plug theme and UI improvements
     Made by @Kris
     https://www.dubtrack.fm/kris
     https://github.com/PossiblyKris
@@ -24,6 +24,13 @@ a:visited {
 }
 #roomFormUpdate .modal-header, #roomInfoModal .modal-header {
     background: #181818;
+}
+#roomFormUpdate .closebtn, #roomInfoModal .closebtn {
+    color: #CCC;
+}
+#roomFormUpdate .mid a, #roomInfoModal .mid a {
+    font-weight: 700;
+    color: #AA74FE;
 }
 
 /* Lobby                                = = = = = = = = = = =*/
@@ -120,7 +127,6 @@ a:visited {
 #main-menu-left a.close-menu span {
     font-size: 1em;
     color: #AA74FE;
-    color: #111;
 }
 #main-menu-left a.topdubs-link {
     color: #666;
@@ -307,38 +313,11 @@ button:hover {
 #chat .chat-container ul.chat-main li.chat-welcome-message {
 	color: #AA74FE;
 }
+#chat .chat-container ul.chat-main li.chat-welcome-message a {
+    color: #42A5DC;
+}
 #chat .chat-container ul.chat-main li.chat-me-command-joined {
     color: #999;
-}
-#chat .chat-container ul.chat-main li .activity-row .text p {
-    word-break: break-word;
-    word-wrap: break-word;
-}
-
-/* Username Colors                      = = = = = = = = = = =*/
-    /* Classes 
-#chat .chat-container ul.chat-main li.group-user .activity-row .text p a.username {
-    color: #AA74FE !important;
-    opacity: 1;
-}
-#chat .chat-container ul.chat-main li.group-dj .activity-row .text p a.username {
-    color: #D7519C !important;
-    opacity: 1;
-}
-#chat .chat-container ul.chat-main li.group-mods .activity-row .text p a.username {
-    color: #AA74FE !important;
-    opacity: 1;
-	font-weight: 600
-}
-#chat .chat-container ul.chat-main li.group-owner .activity-row .text p a.username {
-    color: #AA74FE !important;
-    opacity: 1;
-	font-weight: 600
-}
-#chat .chat-container ul.chat-main li.group-admin .activity-row .text p a.username {
-    color: #AA74FE !important;
-    opacity: 1;
-	font-weight: 600
 }
 
 /* Special User Colours                 = = = = = = = = = = =*/
@@ -349,12 +328,18 @@ button:hover {
     opacity: 1;
     font-weight: 400
 }
+#chat .chat-container ul.chat-main li.user-52c8efcf37e22b0200000001,
+#chat .chat-container ul.chat-main li.user-52c8efcf37e22b0200000005,
+#chat .chat-container ul.chat-main li.user-52c8efcf37e22b0200000008,
 #chat .chat-container ul.chat-main li.user-5600e1bf2e803803000fee40, /* Roomba */
-#chat .chat-container ul.chat-main li.user-55ff1b594c828c03008bd5f7 { /* Chillbot */
-	background: #181818;
+#chat .chat-container ul.chat-main li.user-56208ef772fbd14400119c64, /* Roomba new */
+#chat .chat-container ul.chat-main li.user-55ff1b594c828c03008bd5f7  /* Chillbot */
+{
+    background: #181818;
 	box-shadow: 8px 0px 0px #181818;
 }
 #chat .chat-container ul.chat-main li.user-5600e1bf2e803803000fee40 .activity-row .text p a.username, /* Roomba */
+#chat .chat-container ul.chat-main li.user-56208ef772fbd14400119c64 .activity-row .text p a.username, /* Roomba new */
 #chat .chat-container ul.chat-main li.user-55ff1b594c828c03008bd5f7 .activity-row .text p a.username { /* Chillbot */
     color: #42A5DC !important;
     font-size: 14px;
@@ -374,18 +359,23 @@ button:hover {
     transition: left 0.0s ease-in 0.0s;
 }
 ul.avatar-list li p.username {
+    color: #777F92;
+}
+ul.avatar-list li.admin:after {
+    color: #42A5DC!important;
+}
+ul.avatar-list li.creator:after {
+    color: #AA74FE!important;
+}
+ul.avatar-list li.co-owner:after,
+ul.avatar-list li.manager:after,
+ul.avatar-list li.mod:after,
+ul.avatar-list li.vip:after,
+ul.avatar-list li.resident-dj:after {
     color: #AA74FE;
 }
-ul.avatar-list li.admin:after, 
-ul.avatar-list li.co-owner:after, 
-ul.avatar-list li.creator:after, 
-ul.avatar-list li.currentDJ:after, 
-ul.avatar-list li.manager:after, 
-ul.avatar-list li.mod:after, 
-ul.avatar-list li.resident-dj:after, 
-ul.avatar-list li.vip:after {
-    opacity: 1;
-    color: #AA74FE;
+ul.avatar-list li.currentDJ:after {
+    color: #FFDD6F;
 }
 #user_popover {
     background: #111;
