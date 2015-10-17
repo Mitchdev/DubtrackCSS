@@ -125,9 +125,7 @@ a:visited {
 
 /* Left Side Menu                       = = = = = = = = = = =*/
 #main-menu-left a.close-menu span {
-    font-size: 1em;
     color: #519CD7;
-    color: #111;
 }
 #main-menu-left a.topdubs-link {
     color: #666;
@@ -135,7 +133,6 @@ a:visited {
 
 /* Right Side Menu (Private Messages)   = = = = = = = = = = =*/
 #main-menu-right a.close-menu span {
-    font-size: 1em;
     color: #519CD7;
 }
 #private-messages .main-message-list .message-header a, 
@@ -338,21 +335,25 @@ button:hover {
 #chat .chat-container ul.chat-main li.user-52c8efcf37e22b0200000001,
 #chat .chat-container ul.chat-main li.user-52c8efcf37e22b0200000005,
 #chat .chat-container ul.chat-main li.user-52c8efcf37e22b0200000008,
-#chat .chat-container ul.chat-main li.user-56208ef772fbd14400119c64, /* Roomba */
-#chat .chat-container ul.chat-main li.user-55ff1b594c828c03008bd5f7 { /* Chillbot */
+#chat .chat-container ul.chat-main li.user-5600e1bf2e803803000fee40, /* Roomba */
+#chat .chat-container ul.chat-main li.user-56208ef772fbd14400119c64, /* Roomba new */
+#chat .chat-container ul.chat-main li.user-55ff1b594c828c03008bd5f7  /* Chillbot */
+{
 	background: #181818;
 	box-shadow: 8px 0px 0px #181818;
 }
 #chat .chat-container ul.chat-main li.user-5600e1bf2e803803000fee40 .activity-row .text p a.username, /* Roomba */
 #chat .chat-container ul.chat-main li.user-56208ef772fbd14400119c64 .activity-row .text p a.username, /* Roomba new */
-#chat .chat-container ul.chat-main li.user-55ff1b594c828c03008bd5f7 .activity-row .text p a.username { /* Chillbot */
+#chat .chat-container ul.chat-main li.user-55ff1b594c828c03008bd5f7 .activity-row .text p a.username  /* Chillbot */
+{
     color: #D7519C !important;
     font-weight: 600;
     text-shadow: 0px 0px 1px #000;
 }
-#chat .chat-container ul.chat-main li.user-52c8efcf37e22b0200000001 .activity-row .text p a.username, /* nambok */
-#chat .chat-container ul.chat-main li.user-52c8efcf37e22b0200000005 .activity-row .text p a.username, /* joe */
-#chat .chat-container ul.chat-main li.user-52c8efcf37e22b0200000008 .activity-row .text p a.username {/* alex */
+#chat .chat-container ul.chat-main li.user-52c821781e2b1fd945000001 .activity-row .text p a.username, /* nambok */
+#chat .chat-container ul.chat-main li.user-52c8ef6037e22b0200000005 .activity-row .text p a.username, /* joe */
+#chat .chat-container ul.chat-main li.user-52c8efcf37e22b0200000008 .activity-row .text p a.username  /* alex */
+{
     opacity: 1;
     font-weight: 600;
 }
