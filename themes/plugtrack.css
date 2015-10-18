@@ -590,6 +590,9 @@ ul.avatar-list li.downdub {
 .isSwordful ul li.optionClass.isTwitter a {
     color: #ccc !important;
 }
+.onErr .container .control .confirm {
+    background: #AA74FE;
+}
 
 /* Not logged in                            = = = = = = = = = = =*/
 #login-model-window .login-model-container {
