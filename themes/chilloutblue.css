@@ -125,6 +125,7 @@ a:visited {
 
 /* Left Side Menu                       = = = = = = = = = = =*/
 #main-menu-left a.close-menu span {
+    font-size: 1em;
     color: #519CD7;
 }
 #main-menu-left a.topdubs-link {
@@ -408,7 +409,7 @@ ul.avatar-list li.admin:after {
     color: #D7519C!important;
 }
 ul.avatar-list li.creator:after {
-    color: #D7519C!important;
+    color: #519CD7!important;
 }
 ul.avatar-list li.co-owner:after {
     color: #519CD7;
