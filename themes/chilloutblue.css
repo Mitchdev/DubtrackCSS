@@ -58,7 +58,7 @@ a:visited {
 }
 /* Bottom Bar                           = = = = = = = = = = =*/
 #player-controller ul li a.playbtn:hover {
-    background-color: #519CD7 !important;
+    background-color: #519CD7!important;
     color: #111;
 }
 #volume-div {
@@ -248,7 +248,7 @@ button:hover {
     background: #519CD7;
 }
 #chat .chat_tools .room-user-counter {
-    background: #519CD7 !important;
+    background: #519CD7!important;
     color: #111;
     opacity: 0.9;
     font-size: 0.8em;
@@ -274,7 +274,7 @@ button:hover {
 }
 #chat .chat-container .pusher-chat-widget-input button {
     color: #111;
-    background: #519CD7 !important;
+    background: #519CD7!important;
     opacity: 0.75;
 }
 #chat .chat-container .pusher-chat-widget-input .icon-camera {
@@ -297,11 +297,11 @@ button:hover {
     font-weight: 400;
 }
 #chat .chat-container ul.chat-main li .activity-row .text span.username-handle[style="color: rgba(255, 0, 255, 0.8);"] {
-    color: #FFDD6F !important;
+    color: #FFDD6F!important;
 }
 #chat .chat-container ul.chat-main li:focus .chatDelete, 
 #chat .chat-container ul.chat-main li:hover .chatDelete {
-    color: #519CD7 !important;
+    color: #519CD7!important;
     opacity: 0.75;
     font-size: 0.6em;
 }
@@ -347,7 +347,7 @@ button:hover {
 #chat .chat-container ul.chat-main li.user-56208ef772fbd14400119c64 .activity-row .text p a.username, /* Roomba new */
 #chat .chat-container ul.chat-main li.user-55ff1b594c828c03008bd5f7 .activity-row .text p a.username  /* Chillbot */
 {
-    color: #D7519C !important;
+    color: #D7519C!important;
     font-weight: 600;
     text-shadow: 0px 0px 1px #000;
 }
@@ -623,21 +623,21 @@ ul.avatar-list li.downdub {
 
 /* DubX Menu                            = = = = = = = = = = =*/
 .isSwordful {
-    border-left: 0px solid #519CD7 !important;
+    border-left: 0px solid #519CD7!important;
 }
 .isSwordful .verSwordful .Javaling,
 .isSwordful .optionSwordful {
-    color: #CCC !important;
+    color: #CCC!important;
 }    
 .optionSwordful .titleClass .istitle {
-    color: #519CD7 !important;
+    color: #519CD7!important;
 }
 .isSwordful ul li.optionClass.isFacebook a,
 .isSwordful ul li.optionClass.isTwitter a {
-    color: #ccc !important;
+    color: #ccc!important;
 }
 .onErr .container .control .confirm {
-    background: #519CD7;
+    background: #519CD7!important;
 }
 
 /* Not logged in                            = = = = = = = = = = =*/
