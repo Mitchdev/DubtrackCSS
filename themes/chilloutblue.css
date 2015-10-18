@@ -632,12 +632,6 @@ ul.avatar-list li.downdub {
 .optionSwordful .titleClass .istitle {
     color: #519CD7 !important;
 }
-.BSSControl .storeBSSClass,
-.RSSControl .storeRSSClass,
-.reportControl .reportGo,
-.requestControl .requestGo {
-    background: #519CD7 !important;
-}
 .isSwordful ul li.optionClass.isFacebook a,
 .isSwordful ul li.optionClass.isTwitter a {
     color: #ccc !important;
