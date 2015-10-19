@@ -178,6 +178,8 @@ a:visited {
     color: #111;
     background: #519CD7;
     opacity: 0.75;
+    padding: 0em 1.125em;
+    font-size: 1em;
 }
 #main_player .player_container {
     background-image: url(https://raw.githubusercontent.com/PossiblyKris/DubtrackCSS/master/assets/bykris.png);
@@ -197,6 +199,8 @@ a:visited {
 #main_player .player_container .hideVideo-el {
     background: #519CD7;
     opacity: 0.75;
+    top: calc(100% - 20px);
+    display: none;
 }
 #main_player .player_container .error-el {
     background: #519CD7;
