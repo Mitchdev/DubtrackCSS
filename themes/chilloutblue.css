@@ -76,9 +76,6 @@ a:visited {
     color: #111;
     opacity: 1;
 }
-#player-controller ul li a {
-    padding: 0.75em 1em;
-}
 #player-controller ul li a span {
     color: #ccc;
     opacity: 1;
@@ -285,15 +282,16 @@ button:hover {
     color: #519CD7;
     opacity: 0.75;
 }
+#chat .chat-container ul.chat-main li.chat-system-loading {
+    font-size: 0.6em;
+    font-weight: 600;
+    color: #D7519C;
+}
 #chat .chat-container ul.chat-main li.system {
     color: #D7519C;
-    opacity: 1;
-    font-size: .6em;
-    background: #202020;
 }
 #chat .chat-container ul.chat-main li.system-error {
     color: #D7519C;
-    font-size: .6em;
 }
 #chat .chat-container ul.chat-main li .activity-row .text span.username-handle {
     color: #CCC;
