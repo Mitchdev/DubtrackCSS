@@ -286,12 +286,15 @@ button:hover {
     font-size: 0.6em;
     font-weight: 600;
     color: #D7519C;
+    opacity: 1;
 }
 #chat .chat-container ul.chat-main li.system {
     color: #D7519C;
+    opacity: 1;
 }
 #chat .chat-container ul.chat-main li.system-error {
     color: #D7519C;
+    opacity: 1;
 }
 #chat .chat-container ul.chat-main li .activity-row .text span.username-handle {
     color: #CCC;
