@@ -283,7 +283,7 @@ button:hover {
     opacity: 0.75;
 }
 #chat .chat-container ul.chat-main li .activity-row .text p a.autolink {
-    word-break: break-word;
+    word-break: keep-all;
 }
 #chat .chat-container ul.chat-main li.chat-system-loading {
     font-size: 0.6em;
