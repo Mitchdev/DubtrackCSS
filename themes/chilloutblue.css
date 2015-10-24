@@ -160,6 +160,9 @@ a:visited {
 #main-room .left_section {
     background: #111;
 }
+#main_player {
+    padding: 1px;
+}
 #main_player .player_sharing {
     background: #111;
 }
