@@ -341,13 +341,13 @@ button:hover {
     opacity: 1;
     font-weight: 400
 }
-#chat .chat-container ul.chat-main li.user-5600e1bf2e803803000fee40, /* Roomba */
-#chat .chat-container ul.chat-main li.user-56208ef772fbd14400119c64, /* Roomba new */
-#chat .chat-container ul.chat-main li.user-55ff1b594c828c03008bd5f7  /* Chillbot */
+/*#chat .chat-container ul.chat-main li.user-5600e1bf2e803803000fee40, /* Roomba 
+#chat .chat-container ul.chat-main li.user-56208ef772fbd14400119c64, /* Roomba new 
+#chat .chat-container ul.chat-main li.user-55ff1b594c828c03008bd5f7  /* Chillbot 
 {
 	background: #181818;
 	box-shadow: 8px 0px 0px #181818;
-}
+}*/
 #chat .chat-container ul.chat-main li.user-5600e1bf2e803803000fee40 .activity-row .text p a.username, /* Roomba */
 #chat .chat-container ul.chat-main li.user-56208ef772fbd14400119c64 .activity-row .text p a.username, /* Roomba new */
 #chat .chat-container ul.chat-main li.user-55ff1b594c828c03008bd5f7 .activity-row .text p a.username  /* Chillbot */
