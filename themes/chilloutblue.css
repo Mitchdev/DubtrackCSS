@@ -61,6 +61,14 @@ a:visited {
     background-color: #519CD7!important;
     color: #111;
 }
+#player-controller ul li a.playbtn .queue-info {
+    background: transparent;
+    color: #519CD7;
+    font-size: 0.8em;
+}
+#player-controller ul li a.playbtn:hover .queue-info {
+    color: #111;
+}
 #volume-div {
     background: #222;
     border: 0px solid #222;
@@ -80,7 +88,10 @@ a:visited {
     color: #ccc;
     opacity: 1;
 }
-    
+#player-controller ul li a.voted span, 
+#player-controller ul li a:hover span {
+    color: #111;
+}
 #player-controller ul li a.dubup:hover {
     background: #519CD7;
     color: #111;
@@ -113,11 +124,6 @@ a:visited {
 }
 #player-controller .right li.copy span {
     color: rgba(81, 156, 215, 1);
-}
-#player-controller ul li a.playbtn .queue-info {
-    background: #519CD7;
-    color: #111;
-    font-size: 0.8em;
 }
 
 /* Left Side Menu                       = = = = = = = = = = =*/
