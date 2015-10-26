@@ -28,7 +28,8 @@ a:visited {
 #roomFormUpdate .closebtn, #roomInfoModal .closebtn {
     color: #CCC;
 }
-#roomFormUpdate .mid a, #roomInfoModal .mid a {
+#roomFormUpdate .mid a, 
+#roomInfoModal .mid a {
     font-weight: 700;
     color: #519CD7;
 }
@@ -56,7 +57,19 @@ a:visited {
     background: #519CD7;
     color: #111;
 }
+/*
+#header-global h1 span {
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url(https://raw.githubusercontent.com/PossiblyKris/DubtrackCSS/master/assets/cm.png);
+    background-position: -1px 6px;
+    background-size: contain;
+}
+*/
 /* Bottom Bar                           = = = = = = = = = = =*/
+#player-controller ul li a {
+    padding: .7em 16px;
+}
 #player-controller ul li a.playbtn:hover {
     background-color: #519CD7!important;
     color: #111;
@@ -350,13 +363,15 @@ button:hover {
     opacity: 1;
     font-weight: 400
 }
-/*#chat .chat-container ul.chat-main li.user-5600e1bf2e803803000fee40, /* Roomba 
+/*
+#chat .chat-container ul.chat-main li.user-5600e1bf2e803803000fee40, /* Roomba 
 #chat .chat-container ul.chat-main li.user-56208ef772fbd14400119c64, /* Roomba new 
 #chat .chat-container ul.chat-main li.user-55ff1b594c828c03008bd5f7  /* Chillbot 
 {
 	background: #181818;
 	box-shadow: 8px 0px 0px #181818;
-}*/
+}
+*/
 #chat .chat-container ul.chat-main li.user-5600e1bf2e803803000fee40 .activity-row .text p a.username, /* Roomba */
 #chat .chat-container ul.chat-main li.user-56208ef772fbd14400119c64 .activity-row .text p a.username, /* Roomba new */
 #chat .chat-container ul.chat-main li.user-55ff1b594c828c03008bd5f7 .activity-row .text p a.username  /* Chillbot */
@@ -365,25 +380,28 @@ button:hover {
     font-weight: 600;
     text-shadow: 0px 0px 1px #000;
 }
-#chat .chat-container ul.chat-main li.user-55f748be44809b0300f885dc .activity-row .text p a.username, /* Molly */
+#chat .chat-container ul.chat-main li.user-55f748be44809b0300f885dc .activity-row .text p a.username, /* molly */
 #chat .chat-container ul.chat-main li.user-55ff52375335f703008b0d38 .activity-row .text p a.username, /* kris */
 #chat .chat-container ul.chat-main li.user-55ff6b62d0ce89030080f3c6 .activity-row .text p a.username, /* fishy */
-#chat .chat-container ul.chat-main li.user-55ffc1b6196f170300cc0ecf .activity-row .text p a.username, /* stray */
+#chat .chat-container ul.chat-main li.user-55ffc1b6196f170300cc0ecf .activity-row .text p a.username, /* stray29th */
 #chat .chat-container ul.chat-main li.user-55ff2e401cef3e0300604c2c .activity-row .text p a.username, /* blau */
 #chat .chat-container ul.chat-main li.user-53acb44af60889020013e468 .activity-row .text p a.username, /* notturno */
-#chat .chat-container ul.chat-main li.user-55ff48c19ada760300c04eda .activity-row .text p a.username, /* chillstep */
-#chat .chat-container ul.chat-main li.user-55ffba16196f170300cc0e3b .activity-row .text p a.username, /* frenchie */
+#chat .chat-container ul.chat-main li.user-55ff48c19ada760300c04eda .activity-row .text p a.username, /* xchillstepx */
+#chat .chat-container ul.chat-main li.user-55ffba16196f170300cc0e3b .activity-row .text p a.username, /* dj_fc */
 #chat .chat-container ul.chat-main li.user-5600004ce3667d0300dcd9d3 .activity-row .text p a.username, /* cherry */
 #chat .chat-container ul.chat-main li.user-55ff8bf7196f170300cc0b2a .activity-row .text p a.username, /* mitch */
 #chat .chat-container ul.chat-main li.user-56057c33aab9a90300d8aad9 .activity-row .text p a.username, /* doctorzetin */
 #chat .chat-container ul.chat-main li.user-56003d36239f1303009c8530 .activity-row .text p a.username, /* aber */
-#chat .chat-container ul.chat-main li.user-55ff46735335f703008b0be6 .activity-row .text p a.username, /* curls */
-#chat .chat-container ul.chat-main li.user-55ff2805f2db2b030087e5d1 .activity-row .text p a.username, /* phil */
+#chat .chat-container ul.chat-main li.user-55ff3f939ada760300c04e14 .activity-row .text p a.username, /* littletomato */
+#chat .chat-container ul.chat-main li.user-55ff46735335f703008b0be6 .activity-row .text p a.username, /* troubledcurls */
+#chat .chat-container ul.chat-main li.user-55ff2805f2db2b030087e5d1 .activity-row .text p a.username, /* philsnip */
 #chat .chat-container ul.chat-main li.user-56015afd2d5038030094d7d4 .activity-row .text p a.username, /* calachi */
 #chat .chat-container ul.chat-main li.user-55ff9b861564a403003f4fec .activity-row .text p a.username, /* anderz */
-#chat .chat-container ul.chat-main li.user-56001ef1d2972003005ab233 .activity-row .text p a.username, /* bockness*/
-#chat .chat-container ul.chat-main li.user-55ff5b8af403a30300df114d .activity-row .text p a.username, /* swanmeat*/
-#chat .chat-container ul.chat-main li.user-55ff56cdd0ce89030080f2d0 .activity-row .text p a.username, /* braincomb*/
+#chat .chat-container ul.chat-main li.user-56001ef1d2972003005ab233 .activity-row .text p a.username, /* bockness */
+#chat .chat-container ul.chat-main li.user-55ff5b8af403a30300df114d .activity-row .text p a.username, /* swanmeat */
+#chat .chat-container ul.chat-main li.user-55ff56cdd0ce89030080f2d0 .activity-row .text p a.username, /* braincomb */
+#chat .chat-container ul.chat-main li.user-52c9235700d7a20200000001 .activity-row .text p a.username, /* jesper */
+#chat .chat-container ul.chat-main li.user-5600d6852d5038030094c624 .activity-row .text p a.username, /* vic */
 #chat .chat-container ul.chat-main li.user-56008b05239f1303009c92f4 .activity-row .text p a.username, /* mawu */
 #chat .chat-container ul.chat-main li.user-55ffa427196f170300cc0ccc .activity-row .text p a.username, /* geologic*/
 #chat .chat-container ul.chat-main li.user-55ffced7196f170300cc0f75 .activity-row .text p a.username, /* theo*/
@@ -406,7 +424,7 @@ button:hover {
 #main_avatar_room .avatar_tools a.loadRoomAva span {
     background: #519CD7;
     color: #111;
-    opacity: 0.75;
+    opacity: 0.9;
     transition: left 0.0s ease-in 0.0s;
 }
 ul.avatar-list li p.username {
@@ -450,11 +468,20 @@ ul.avatar-list li.currentDJ:after {
     border-bottom: 1px solid #111;
     background: #111;
 }
+ul.avatar-list li {
+    padding-left: 12px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
 ul.avatar-list li.updub {
-    border: 1px solid #519CD7;
+    border: none;
+    border-bottom: 1px solid #000;
+    box-shadow: inset 4px 0px 0px 0px #519CD7;
 }
 ul.avatar-list li.downdub {
-    border: 1px solid #D7519C;
+    border: none;
+    border-bottom: 1px solid #000;
+    box-shadow: inset 4px 0px 0px 0px #D7519C;
 }
 
 /* Profile Page                         = = = = = = = = = = =*/
@@ -635,13 +662,12 @@ ul.avatar-list li.downdub {
 .isSwordful .verSwordful .Javaling,
 .isSwordful .optionSwordful {
     color: #CCC!important;
-}    
+}
+.isSwordful .optionSwordful .Optionling {
+    color: #ccc;
+}
 .optionSwordful .titleClass .istitle {
     color: #519CD7!important;
-}
-.isSwordful ul li.optionClass.isFacebook a,
-.isSwordful ul li.optionClass.isTwitter a {
-    color: #ccc!important;
 }
 .onErr .container .control .confirm {
     background: #519CD7!important;
