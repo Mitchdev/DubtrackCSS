@@ -14,8 +14,12 @@ a:visited {
     color: #519CD7;
 }
 #warning {
-    background: #519CD7;
+    background: #D7519C;
     color: #111;
+}
+#warning button {
+    color: #D7519C;
+    background: #111;
 }
 #roomFormUpdate, #roomInfoModal {
     background: #111;
