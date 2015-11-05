@@ -220,42 +220,97 @@ body {
     font-weight: 600!important;
     text-shadow: 0px 0px 1px #000;
 }
+#chat .chat-container ul.chat-main li.user-56208ef772fbd14400119c64 .activity-row .text p a.username:before { /* Roomba new */
+    content: url(https://rawgit.com/PossiblyKris/DubtrackCSS/master/assets/icons/dubhost.png);
+    position: relative;
+    top: 3px;
+    padding-right: 4px;
+}
+
 	/* Special Users */
 #chat .chat-main .isOwner .username, 
 #chat .chat-main .isOwner .username:hover, 
-#chat .chat-main .isOwner .username:visited{
+#chat .chat-main .isOwner .username:visited {
     font-weight: 600!important;
+    color: #878c8e!important;
 }
 
 #chat .chat-main .isCo-owner .username, 
 #chat .chat-main .isCo-owner .username:hover, 
-#chat .chat-main .isCo-owner .username:visited{
+#chat .chat-main .isCo-owner .username:visited {
     font-weight: 600!important;
+    color: #878c8e!important;
 }
 
 #chat .chat-main .isManager .username, 
 #chat .chat-main .isManager .username:hover, 
-#chat .chat-main .isManager .username:visited{
+#chat .chat-main .isManager .username:visited {
     font-weight: 600!important;
+    color: #878c8e!important;
 }
 
 #chat .chat-main .isMod .username, 
 #chat .chat-main .isMod .username:hover, 
-#chat .chat-main .isMod .username:visited{
+#chat .chat-main .isMod .username:visited {
     font-weight: 600!important;
+    color: cyan!important;
 }
 
 #chat .chat-main .isVip .username, 
 #chat .chat-main .isVip .username:hover, 
-#chat .chat-main .isVip .username:visited{
-    color: #878c8e!important;
+#chat .chat-main .isVip .username:visited {
+    color: cyan!important;
 }
 
 #chat .chat-main .isResident-dj .username, 
 #chat .chat-main .isResident-dj .username:hover, 
-#chat .chat-main .isResident-dj .username:visited{
+#chat .chat-main .isResident-dj .username:visited {
     color: #878c8e !important;
 }
+
+/*
+#chat .chat-main .isOwner .username:before {
+    content: url(https://rawgit.com/PossiblyKris/DubtrackCSS/master/assets/icons/dubhost.png);
+    position: relative;
+    top: 3px;
+    padding-right: 4px;
+}
+
+#chat .chat-main .isCo-owner .username:before {
+    content: url(https://rawgit.com/PossiblyKris/DubtrackCSS/master/assets/icons/dubhost.png);
+    position: relative;
+    top: 3px;
+    padding-right: 4px;
+}
+
+#chat .chat-main .isManager .username:before {
+    content: url(https://rawgit.com/PossiblyKris/DubtrackCSS/master/assets/icons/dubmanager.png);
+    position: relative;
+    top: 4px;
+    padding-right: 4px;
+}
+
+#chat .chat-main .isMod .username:before {
+    content: url(https://rawgit.com/PossiblyKris/DubtrackCSS/master/assets/icons/dubmod.png);
+    position: relative;
+    top: 4px;
+    padding-right: 4px;
+}
+
+#chat .chat-main .isVip .username:before {
+    content: url(https://rawgit.com/PossiblyKris/DubtrackCSS/master/assets/icons/dubmod.png);
+    position: relative;
+    top: 4px;
+    padding-right: 4px;
+}
+
+#chat .chat-main .isResident-dj .username:before {
+    content: url(https://rawgit.com/PossiblyKris/DubtrackCSS/master/assets/icons/dubrdj.png);
+    position: relative;
+    top: 4px;
+    padding-right: 2px;
+}
+*/
 
 /* User tab */
 #main_avatar_room #main-user-list-room #avatar-list li p.username{
