@@ -5,705 +5,413 @@
     https://www.dubtrack.fm/kris
     https://github.com/PossiblyKris
 */
-#main-loading {
-    background: #519CD7;
-    color: #111;
+
+/* Body */
+a:active, a:focus, a:hover {
+    color: #6BCAE2;
 }
-a:hover, 
-a:visited {
-    color: #519CD7;
+body {
+    color: #ddd;
+}
+#header-global .header-left-navigation a.room-active-link.active-room .icon-chevron {
+    color: #6BCAE2;
 }
 #warning {
-    background: #D7519C;
-    color: #111;
+    background: #67dbe5;
+    color: #000;
 }
-#warning button {
-    color: #D7519C;
-    background: #111;
-}
-#roomFormUpdate, #roomInfoModal {
-    background: #111;
-    border: 2px solid #519CD7;
-    color: #CCC;
-}
-#roomFormUpdate .modal-header, #roomInfoModal .modal-header {
-    background: #181818;
-}
-#roomFormUpdate .closebtn, #roomInfoModal .closebtn {
-    color: #CCC;
-}
-#roomFormUpdate .mid a, 
-#roomInfoModal .mid a {
-    font-weight: 700;
-    color: #519CD7;
+/* Main page */
+#main-loading {
+    opacity: 1;
+    background: #67dbe5;
+    color: #222;
 }
 
-/* Lobby                                = = = = = = = = = = =*/
-#container-room-list .room-item .user-count {
-    background: #519CD7;
-    color: #111;
+/* Top bar */
+#header-global {
+    background: #1a1a1a;
 }
-#container-room-list .room-item.active-room, 
-#container-room-list .room-item.userRoom {
-    outline: 1px solid rgba(0, 0, 0, 0);
+#header-global .header-right-navigation .user-info span:hover,
+#header-global .header-right-navigation .user-messages:hover,
+#header-global .header-right-navigation .for:hover {
+    color: #6BCAE2;
+}
+#header-global .header-right-navigation .user-messages .message-counter {
+    background: #E26BCA;
+}
+#header-global > div.header-right-navigation > div.user-messages > span.message-counter {
+    color: #fff;
 }
 
-/* Top Bar                              = = = = = = = = = = =*/
-#roomFormUpdate {
-    background: #111;
-    border: 2px solid #519CD7;
-    opacity: 0.9;
+/* Bottom bar */
+#player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
+    background: #6BCAE2;
 }
-#header-global .main-menu li input {
-    background: #222;
-}
-#header-global .user-info .user-header-menu li.user-messages span.message-counter {
-    background: #519CD7;
-    color: #111;
-}
-/*
-#header-global h1 span {
-    display: block;
-    background-repeat: no-repeat;
-    background-image: url(https://raw.githubusercontent.com/PossiblyKris/DubtrackCSS/master/assets/cm.png);
-    background-position: -1px 6px;
-    background-size: contain;
-}
-*/
-/* Bottom Bar                           = = = = = = = = = = =*/
-#player-controller ul li a {
-    padding: .7em 16px;
-}
-#player-controller ul li a.playbtn:hover {
-    background-color: #519CD7!important;
-    color: #111;
-}
-#player-controller ul li a.playbtn .queue-info {
-    background: transparent;
-    color: #519CD7;
-    font-size: 0.8em;
-}
-#player-controller ul li a.playbtn:hover .queue-info {
-    color: #111;
-}
-#volume-div {
-    background: #222;
-    border: 0px solid #222;
-    border-radius: .313em;
-}
-#volume-div .ui-slider-handle {
-    background: #519CD7;
-    color: #111;
-    opacity: 0.85;
-}
-#player-controller ul li.infoContainer .progressBg {
-    background: #519CD7;
-    color: #111;
-    opacity: 1;
-}
-#player-controller ul li a span {
-    color: #ccc;
-    opacity: 1;
-}
-#player-controller ul li a.voted span, 
-#player-controller ul li a:hover span {
-    color: #111;
-}
-#player-controller ul li a.dubup:hover {
-    background: #519CD7;
-    color: #111;
+#player-controller .right ul li .dubup:hover {
+    background: #6BCAE2;
+    color: #222;
     opacity: 0.66;
 }
-#player-controller ul li a.dubup.voted {
-    background: #519CD7;
-    color: #111;
+#player-controller .right ul li .dubup.voted {
+    background: #6BCAE2;
     opacity: 1;
 }
-#player-controller ul li a:hover, 
-#player-controller ul li a.voted {
-    background: #519CD7;
-    color: #111;
-    opacity: 1;
+#player-controller .right ul li .dubup.voted span {
+    color: #222;
 }
-#player-controller ul li a.dubdown:hover {
-    background: #D7519C;
-    color: #111;
+#player-controller .right ul li .dubup .icon-arrow-up {
+    color: #6BCAE2;
+}
+#player-controller .right ul li .dubdown:hover {
+    background: #E26BCA;
+    color: #222;
     opacity: 0.66;
 }
-#player-controller ul li a.dubdown.voted {
-    background: #D7519C;
-    color: #111;
+#player-controller .right ul li .dubdown.voted {
+    background: #E26BCA;
     opacity: 1;
 }
-#player-controller .right {
-    opacity: 1;
-    border-left: 1px #202020 solid;
+#player-controller .right ul li .dubdown.voted span {
+    color: #222;
 }
-#player-controller .right li.copy span {
-    color: rgba(81, 156, 215, 1);
+#player-controller .right ul li .dubdown .icon-arrow-down {
+    color: #E26BCA;
 }
-
-/* Left Side Menu                       = = = = = = = = = = =*/
-#main-menu-left a.close-menu span {
-    font-size: 1em;
-    color: #519CD7;
-}
-#main-menu-left a.topdubs-link {
-    color: #666;
+.icon-heart:before,
+.icon-playlist:before:hover {
+    color: #CAE26B;
 }
 
-/* Right Side Menu (Private Messages)   = = = = = = = = = = =*/
-#main-menu-right a.close-menu span {
-    color: #519CD7;
+/* Right side menu */
+#private-messages .loading {
+    background: #6BCAE2;
+    color: #222;
+}
+#main-menu-right .close-menu span:hover {
+    color: #6BCAE2;
 }
 #private-messages .main-message-list .message-header a, 
 #private-messages .message-details .message-header a {
-    color: #519CD7;
-    text-transform: uppercase;
+    color: #6BCAE2;
 }
 #private-messages .main-message-list ul.message-list li.message-item .message-content h3, 
 #private-messages .message-details ul.message-list li.message-item .message-content h3 {
-    color: #519CD7;
+    color: #6BCAE2;
 }
 #private-messages .main-message-list ul.message-list li.message-item.new-message:before, 
 #private-messages .message-details ul.message-list li.message-item.new-message:before {
-    background: #519CD7;
-    color: #111;
+    background: #6BCAE2;
 }
-#private-messages .main-message-list ul.message-list li.message-item .message-content .username-handle, 
-#private-messages .message-details ul.message-list li.message-item .message-content .username-handle {
-    color: #519CD7;
-    font-weight: bold;
-}
-#private-messages .user_selected_items .result-item span b {
-  color: #519CD7;
+#private-messages .private-message-details-info, #private-messages .private-message-info {
+    color: #6BCAE2;
 }
 
-/* Video box                            = = = = = = = = = = =*/
-#main-room .left_section {
-    background: #111;
+/* Left side Menu and Lobby */
+#main-menu-left a,
+#main-menu-left a.room-active-link {
+    color: #ddd;
 }
-#main_player {
-    padding: 1px;
+#main-menu-left a:hover {
+    color: #6BCAE2;
 }
-#main_player .player_sharing {
-    background: #111;
-}
-#main_player .player_sharing span:hover {
-    color: #519CD7;
-}
-#main_player:after {
-    background: #111;
-    color: #111;
-    opacity: 1;
-}
-.loading {
-    color: #111;
-    background: #519CD7;
-    opacity: 0.75;
-    padding: 0em 1.125em;
-    font-size: 1em;
-}
-#main_player .player_container {
-    background-image: url(https://raw.githubusercontent.com/PossiblyKris/DubtrackCSS/master/assets/bykris.png);
-}
-#main_player .player_container .skip-el {
-    background: #519CD7;
-    opacity: 0.75;
-}
-#main_player .player_container .refresh-el {
-    background: #519CD7;
-    opacity: 0.75;
-}
-#main_player .player_container .videoquality-el {
-    background: #519CD7;
-    opacity: 0.75;
-}
-#main_player .player_container .hideVideo-el {
-    background: #519CD7;
-    opacity: 0.75;
-    top: calc(100% - 20px);
-    display: none;
-}
-#main_player .player_container .error-el {
-    background: #519CD7;
-}
-#main_player .player_container .placeholder h5 span {
-  color: #519CD7;
-}
-.comments-main .post-comment-container .comments-textarea-container {
-    background: #222;
-}
-.comments-main .post-comment-container textarea {
-    border: 1px #222 solid;
-    background: #181818;
-}
-.comments-main .post-comment-container .comments-textarea-container button {
-    background: #519CD7;
-    color: #111;
-    opacity: 0.75;
-}
-.comments-main .comments-list .comment-item .comment-dub {
-    color: #5a5b5c;
-}
-button:hover {
-    -moz-box-shadow: inset 0 -2px #519CD7;
-    -webkit-box-shadow: inset 0 -2px #519CD7;
-    box-shadow: inset 0 -2px #519CD7;
-}
-.comments-main .comments-list .comment-item header a {
-    color: #519CD7;
-}
-.comments-main .comments-list .comment-item .comment-dub .icon-arrow-up:hover, 
-.comments-main .comments-list .comment-item .comment-dub .icon-arrow-up.dubvoted, 
-.comments-main .comments-list .comment-item .comment-dub .icon-arrow-down:hover, 
-.comments-main .comments-list .comment-item .comment-dub .icon-arrow-down.dubvoted {
-    color: #519CD7;
-    opacity: 0.75;
-}
-.comments-main .comments-list .comment-item .comment-dub a.delete:hover {
-    color: #519CD7;
-    opacity: 0.75;
-}
-.comments-main .comments-list .comment-item .icon-flag:hover {
-    color: #519CD7;
-    opacity: 0.75;
-}
-    
-/* Chat box                             = = = = = = = = = = =*/
-#user_popover .global-actions a {
-    background: #519CD7;
-}
-#chat .chat_tools .room-user-counter {
-    background: #519CD7!important;
-    color: #111;
-    opacity: 0.9;
-    font-size: 0.8em;
-    font-weight: 600;
-}
-#chat .chat_tools .room-user-counter:before {
-    font-size: 0.8em;
+#main-menu-left .close-menu span:hover {
+    color: #6BCAE2;
 }
 
-#chat .chat_tools .clearChatToggle {
-    opacity: 0.9;
-    font-size: .75em;
-	
+/* Chat container */
+#chat .chat_tools span:after {
+    border: 1px solid #fff;
 }
-#chat .chat_tools .hideImagesToggle {
-    opacity: 0.9;
-    font-size: .75em;
-    margin-left: 1px;
-}
-#chat #new-messages-counter {
-    background: #519CD7;
-    color: #111;
-}
-#chat .chat-container .pusher-chat-widget-input button {
-    color: #111;
-    background: #519CD7!important;
-    opacity: 0.75;
+#chat .chat_tools span.display-chat,
+#main-room.display-users-rooms #chat .display-room-users,
+#main-room.display-chat-settings #chat .display-chat-settings,
+#chat .chat_tools span.icon-chatsettings:hover,
+#chat .chat_tools .display-room-users.icon-people:hover,
+#main-room.display-users-rooms #chat .display-chat:hover, 
+#main-room.display-users-rooms #chat .display-chat-settings:hover,
+#main-room.display-chat-settings #chat .display-chat:hover,
+#main-room.display-chat-settings #chat .display-room-users:hover,
+#chat .chat-container .pusher-chat-widget-input .icon-camera:hover {
+    color: #fff;
 }
 #chat .chat-container .pusher-chat-widget-input .icon-camera {
-    color: #519CD7;
-    opacity: 0.75;
+    color: #aaa;
 }
-#chat .chat-container ul.chat-main li .activity-row .text p a.autolink {
-    word-break: keep-all;
-}
-#chat .chat-container ul.chat-main li.chat-system-loading {
-    font-size: 0.6em;
-    font-weight: 600;
-    color: #D7519C;
-    opacity: 1;
-}
-#chat .chat-container ul.chat-main li.system {
-    color: #D7519C;
-    opacity: 1;
-}
-#chat .chat-container ul.chat-main li.system-error {
-    color: #D7519C;
-    opacity: 1;
-}
-#chat .chat-container ul.chat-main li .activity-row .text span.username-handle {
-    color: #CCC;
-    opacity: 1;
-    font-weight: 400;
-}
-#chat .chat-container ul.chat-main li .activity-row .text span.username-handle[style="color: rgba(255, 0, 255, 0.8);"] {
-    color: #FFDD6F!important;
+#chat .pusher-chat-widget-input #new-messages-counter {
+    background: #6BCAE2;
+    color: #222;
 }
 #chat .chat-container ul.chat-main li:focus .chatDelete, 
 #chat .chat-container ul.chat-main li:hover .chatDelete {
-    color: #519CD7!important;
+    color: #6BCAE2!important;
     opacity: 0.75;
-    font-size: 0.6em;
+    font-size: 0.6rem;
 }
-#chat .chat-container ul.chat-main li .activity-row .meta-info .username {
-    font-size: .6em;
-    color: #519CD7;
+	/* Chat messages */
+#chat .chat-container .chat-messages .chat-main li.chat-welcome-message a {
+    color: #6BCAE2;
 }
-#chat .chat-container ul.chat-main li.chat-welcome-message {
-	color: #D7519C;
+#chat .chat-container .chat-messages .chat-main li.chat-system-loading, 
+#chat .chat-container .chat-messages .chat-main li.system, 
+#chat .chat-container .chat-messages .chat-main li.system-error {
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #E26BCA!important;
+    opacity: 1;
+    text-align: center;
 }
-#chat .chat-container ul.chat-main li.chat-welcome-message a {
-    color: #519CD7;
+#chat .chat-container .chat-messages .chat-main li {
+    font-size: .9rem;
+    padding: 0 0 1rem;
+    overflow: hidden;
 }
-#chat .chat-container ul.chat-main li.chat-me-command-joined {
-    color: #999;
+#chat .chat-container .chat-messages .chat-main li .activity-row .text p {
+    color: #ddd;
+    opacity: 1;
 }
-#chat .chat-container ul.chat-main li .activity-row .text p a.autolink {
-    color: #519CD7;
+#chat .chat-container .chat-messages .chat-main li.chat-me-command-joined {
+    color: #aaa;
 }
-#chat .chat-container ul.chat-main li .activity-row .text p a.autolink:visited {
-    color: #005d99;
+#chat .chat-container ul.chat-main li .activity-row .text p a.autolink,
+#chat .chat-container ul.chat-main li .activity-row .text p a.autolink:visited:hover,
+#chat .chat-container .chat-messages.ps-container ul.chat-main li.chat-me-command-joined .text a:hover,
+#chat .chat-container .chat-messages.ps-container ul.chat-main li.chat-me-command-joined .text a:visited:hover {
+    color: #6BCAE2;
+    font-weight: 400;
+}
+#chat .chat-container ul.chat-main li .activity-row .text p a.autolink:hover,
+#chat .chat-container ul.chat-main li .activity-row .text p a.autolink:visited,
+#chat .chat-container .chat-messages.ps-container ul.chat-main li.chat-me-command-joined .text a:visited {
+    color: #0063a6;
+    font-weight: 400;
+}
+#chat .chat-container .chat-messages .chat-main li .activity-row .text .username-handle {
+    color: #fff;
+    opacity: 1;
+    font-weight: 400;
+}
+#chat .chat-container .chat-messages .chat-main li .activity-row .text .username-handle[style="color: rgba(255, 0, 255, 0.8);"] {
+    color: #FFDD6F!important;
 }
 
-/* Special User Colours                 = = = = = = = = = = =*/
+	/* Usernames */
 #chat .chat-container ul.chat-main li .activity-row .text p a.username, 
-#chat .chat-container ul.chat-main li .activity-row .text p a.username:hover, 
-#chat .chat-container ul.chat-main li .activity-row .text p a.username:visited {
-    color: #519CD7;
+#chat .chat-container ul.chat-main li .activity-row .text p a.username:visited,
+#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username {
+    display: block;
+    font-size: .9rem;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #878c8e;
     opacity: 1;
-    font-weight: 400
 }
-/*
-#chat .chat-container ul.chat-main li.user-5600e1bf2e803803000fee40, /* Roomba 
-#chat .chat-container ul.chat-main li.user-56208ef772fbd14400119c64, /* Roomba new 
-#chat .chat-container ul.chat-main li.user-55ff1b594c828c03008bd5f7  /* Chillbot 
+#chat .chat-container ul.chat-main li .activity-row .text p a.username:hover {
+    color: #fff;
+}
+#chat .chat-container ul.chat-main li.current-chat-user .activity-row .text p a.username
 {
-	background: #181818;
-	box-shadow: 8px 0px 0px #181818;
+    color: #FFDD6F;
 }
-*/
 #chat .chat-container ul.chat-main li.user-5600e1bf2e803803000fee40 .activity-row .text p a.username, /* Roomba */
 #chat .chat-container ul.chat-main li.user-56208ef772fbd14400119c64 .activity-row .text p a.username, /* Roomba new */
 #chat .chat-container ul.chat-main li.user-55ff1b594c828c03008bd5f7 .activity-row .text p a.username  /* Chillbot */
 {
-    color: #D7519C!important;
-    font-weight: 600;
+    color: #E26BCA!important;
+    font-weight: 600!important;
     text-shadow: 0px 0px 1px #000;
 }
-#chat .chat-container ul.chat-main li.user-55f748be44809b0300f885dc .activity-row .text p a.username, /* molly */
-#chat .chat-container ul.chat-main li.user-55ff52375335f703008b0d38 .activity-row .text p a.username, /* kris */
-#chat .chat-container ul.chat-main li.user-55ff6b62d0ce89030080f3c6 .activity-row .text p a.username, /* fishy */
-#chat .chat-container ul.chat-main li.user-55ffc1b6196f170300cc0ecf .activity-row .text p a.username, /* stray29th */
-#chat .chat-container ul.chat-main li.user-55ff2e401cef3e0300604c2c .activity-row .text p a.username, /* blau */
-#chat .chat-container ul.chat-main li.user-53acb44af60889020013e468 .activity-row .text p a.username, /* notturno */
-#chat .chat-container ul.chat-main li.user-55ff48c19ada760300c04eda .activity-row .text p a.username, /* xchillstepx */
-#chat .chat-container ul.chat-main li.user-55ffba16196f170300cc0e3b .activity-row .text p a.username, /* dj_fc */
-#chat .chat-container ul.chat-main li.user-5600004ce3667d0300dcd9d3 .activity-row .text p a.username, /* cherry */
-#chat .chat-container ul.chat-main li.user-55ff8bf7196f170300cc0b2a .activity-row .text p a.username, /* mitch */
-#chat .chat-container ul.chat-main li.user-56057c33aab9a90300d8aad9 .activity-row .text p a.username, /* doctorzetin */
-#chat .chat-container ul.chat-main li.user-56003d36239f1303009c8530 .activity-row .text p a.username, /* aber */
-#chat .chat-container ul.chat-main li.user-55ff3f939ada760300c04e14 .activity-row .text p a.username, /* littletomato */
-#chat .chat-container ul.chat-main li.user-55ff46735335f703008b0be6 .activity-row .text p a.username, /* troubledcurls */
-#chat .chat-container ul.chat-main li.user-55ff2805f2db2b030087e5d1 .activity-row .text p a.username, /* philsnip */
-#chat .chat-container ul.chat-main li.user-56015afd2d5038030094d7d4 .activity-row .text p a.username, /* calachi */
-#chat .chat-container ul.chat-main li.user-55ff9b861564a403003f4fec .activity-row .text p a.username, /* anderz */
-#chat .chat-container ul.chat-main li.user-56001ef1d2972003005ab233 .activity-row .text p a.username, /* bockness */
-#chat .chat-container ul.chat-main li.user-55ff5b8af403a30300df114d .activity-row .text p a.username, /* swanmeat */
-#chat .chat-container ul.chat-main li.user-55ff56cdd0ce89030080f2d0 .activity-row .text p a.username, /* braincomb */
-#chat .chat-container ul.chat-main li.user-52c9235700d7a20200000001 .activity-row .text p a.username, /* jesper */
-#chat .chat-container ul.chat-main li.user-5600d6852d5038030094c624 .activity-row .text p a.username, /* vic */
-#chat .chat-container ul.chat-main li.user-56008b05239f1303009c92f4 .activity-row .text p a.username, /* mawu */
-#chat .chat-container ul.chat-main li.user-55ffa427196f170300cc0ccc .activity-row .text p a.username, /* geologic*/
-#chat .chat-container ul.chat-main li.user-55ffced7196f170300cc0f75 .activity-row .text p a.username, /* theo*/
-#chat .chat-container ul.chat-main li.user-55ffc4d41564a403003f52b9 .activity-row .text p a.username, /* muchlove */
-#chat .chat-container ul.chat-main li.user-55ffaa731564a403003f50d5 .activity-row .text p a.username, /* axle */
-#chat .chat-container ul.chat-main li.user-5600a1f0bfb6340300a2dd65 .activity-row .text p a.username, /* zikelir */
-#chat .chat-container ul.chat-main li.user-5604ed62c4f5dd03004bbf4b .activity-row .text p a.username, /* police */
-#chat .chat-container ul.chat-main li.user-5600d6842d5038030094c623 .activity-row .text p a.username, /* banksy */
-#chat .chat-container ul.chat-main li.user-560347f4b585d003001b2f8c .activity-row .text p a.username  /* chief */ 
-{
-    opacity: 1;
-    font-weight: 600;
+	/* Special Users */
+#chat .chat-main .isOwner .username, 
+#chat .chat-main .isOwner .username:hover, 
+#chat .chat-main .isOwner .username:visited{
+    font-weight: 600!important;
 }
 
-/* User tab                             = = = = = = = = = = =*/
-#main-room #mobile-room-menu a span.info-counter {
-    background: #519CD7;
-    color: #111;
-}
-#main_avatar_room .avatar_tools a.loadRoomAva span {
-    background: #519CD7;
-    color: #111;
-    opacity: 0.9;
-    transition: left 0.0s ease-in 0.0s;
-}
-ul.avatar-list li p.username {
-    color: #519CD7;
-}
-ul.avatar-list li.admin:after {
-    color: #D7519C!important;
-}
-ul.avatar-list li.creator:after {
-    color: #519CD7!important;
-}
-ul.avatar-list li.co-owner:after {
-    color: #519CD7;
-}
-ul.avatar-list li.manager:after {
-    color: #519CD7;
-}
-ul.avatar-list li.mod:after {
-    color: #519CD7;
-}
-ul.avatar-list li.vip:after {
-    color: #519CD7;
-}
-ul.avatar-list li.resident-dj:after {
-    color: #519CD7;
-}
-ul.avatar-list li.currentDJ:after {
-    color: #FFDD6F;
-}
-#user_popover {
-    background: #111;
-    border: 1px solid #519CD7;
-}
-#user_popover .actions a,
-#user_popover .global-actions a {
-    color: #111;
-    background: #519CD7;
-    outline: 1px solid #111;
-}
-#user_popover .actions a input {
-    border-bottom: 1px solid #111;
-    background: #111;
-}
-ul.avatar-list li {
-    padding-left: 12px;
-    border: none;
-    border-bottom: 1px solid #000;
-}
-ul.avatar-list li.updub {
-    border: none;
-    border-bottom: 1px solid #000;
-    box-shadow: inset 4px 0px 0px 0px #519CD7;
-}
-ul.avatar-list li.downdub {
-    border: none;
-    border-bottom: 1px solid #000;
-    box-shadow: inset 4px 0px 0px 0px #D7519C;
+#chat .chat-main .isCo-owner .username, 
+#chat .chat-main .isCo-owner .username:hover, 
+#chat .chat-main .isCo-owner .username:visited{
+    font-weight: 600!important;
 }
 
-/* Profile Page                         = = = = = = = = = = =*/
-#profileMainSection .profileView .header .pictureContainer a.updatePictureGif {
-    background: #519CD7;
-    color: #111;
-}
-#profileMainSection .profileView .header .pictureContainer img {
-    background: #000;
-    border: 0.4em solid #519CD7;
-}
-#profileMainSection .profileView .contentMainProfile span.progress {
-    opacity: 0.7;
-    background: #519CD7;
-    color: #111;
-}
-#profileMainSection .profileView .infoProfile h2 span.editUsername, 
-#profileMainSection .profileView .infoProfile h2 span.saveUsername {
-    color: #111;
-    background: #519CD7;
-}
-#profileMainSection .profileView .rewindProfile {
-    border: 5px solid #519CD7;
-}
-#profileMainSection .profileView .infoProfile button.message.unfollow {
-    background: #D7519C;
-    color: #111;
-}
-#profileMainSection .profileView .infoProfile h2 .check_username_info.error {
-    color: #D7519C;
+#chat .chat-main .isManager .username, 
+#chat .chat-main .isManager .username:hover, 
+#chat .chat-main .isManager .username:visited{
+    font-weight: 600!important;
 }
 
-/* Playlist Menu                        = = = = = = = = = = =*/
-#browser .browser-content-header {
-    color: #519CD7;
-    background: #111;
-}
-#browser .browser-content {
-    border: 2px rgba(81, 156, 215, 0.75) solid;
-}
-#browser .browser-content-header .form input[type=text] {
-    outline: 1px #333 solid;
-    background: #202020;
-}
-#browser .browser-content-header .form a.active {
-    outline-color: #519CD7;
-    opacity: 1;
-}
-#browser .browser-content-header .form a.search-btn {
-    color: #111;
-    background: #519CD7;
-    outline-color: #519CD7;
-    opacity: 0.75;
-}
-#browser .create-playlist span {
-    color: #000;
-    background: #519CD7;
-    opacity: 0.75;
-}
-#browser .loading {
-    text-transform: uppercase;
-    background: #519CD7;
-    color: #000;
-}
-#browser .loading, 
-#browser .clear-queue-browser-bth,
-#browser .pause-queue-browser-bth {
-    color: #111;
-    background: #519CD7;
-    opacity: 1;
-    outline: none;
-}
-#browser .sidebar #room-lock-queue,
-#browser .sidebar #room-lock-queue.locked {
-    color: #111;
-    background: #519CD7;
-    opacity: 1;
-    font-size: 14px;
-}
-#browser .content-videos ul.browserPlaylistItems>li {
-    border-bottom: 1px #202020 solid;
-    background: #111;
-    opacity: 0.85;
-}
-#browser .content-videos ul.browserPlaylistItems>li span.timeDisplay {
-    color: #111;
-    background: #519CD7;
-    opacity: 1;
-}
-#browser .content-videos ul.browserPlaylistItems>li .description p span {
-    color: #519CD7;
-    opacity: 1;
-}
-#browser ul.playlist-style li:hover .add_to_queue, 
-#browser ul.playlist-style li:hover .delete {
-    color: #519CD7;
-    opacity: 1;
-}
-#results_video_api a.tt-wrapper.playlist_type.playlist_type_private, 
-#results_video_api a.tt-wrapper.upload_btn.playlist_type_private {
-    border: #519CD7 1px solid;
-    color: #111;
-    background: #519CD7;
-}
-#browser .browser-content-header .close {
-    color: #519CD7;
-    opacity: 0.8;
-}
-#browser span.title {
-    color: #519CD7;
-    font-size: 1.5em;
-}
-#addToPlaylistFloatContainer .create-playlist-input span {
-    background: #519CD7;
-    color: #111;
-}
-#browser .content-videos ul.browserPlaylistItems>li .description p {
-    color: #519CD7;
-}
-#browser .content-videos ul.browserPlaylistItems>li .display-success {
-    background: #519CD7;
-    color: #111;
-}
-#browser .content-videos ul.browserPlaylistItems>li .actions a .spinner>div {
-    background: #519CD7;
-    color: #111;
-}
-#browser .content-videos ul.browserPlaylistItems>li .display-error, 
-#browser .content-videos ul.browserPlaylistItems>li .display-success {
-    background: #519CD7;
-    color: #111;
-}
-#results_video_api .playlist_info {
-    background: #111;
-}
-#results_video_api .playlist_info .playlist_filter {
-    border: 1px #202020 solid;
-}
-#browser .content-videos ul.browserPlaylistItems>li.selected {
-    outline: 1px solid #519CD7;
-    border-bottom: 1px solid #519CD7;
+#chat .chat-main .isMod .username, 
+#chat .chat-main .isMod .username:hover, 
+#chat .chat-main .isMod .username:visited{
+    font-weight: 600!important;
 }
 
-	/* Video Previews                   = = = = = = = = = = =*/
-.player .ui-slider-range {
-    background: #519CD7;
-    position: absolute;
-    border: 0;
-    top: 0;
-    height: 100%;
-}
-.player .ui-slider-handle {
-    background: #519CD7;
-    color: #111;
-}
-.player .controlContainer .progressContainer .progress, 
-.player .controlContainer .progressContainer .loaded {
-    background: #519CD7;
-    color: #111;
-}
-.player .tooltip {
-    color: #111;
-    background: #519CD7;
-}
-	/* Soundcloud                       = = = = = = = = = = =*/
-.player .loading, 
-.player .buffering, 
-.player .replay, 
-.player .error {
-    background: #519CD7;
-    color: #111;
+#chat .chat-main .isVip .username, 
+#chat .chat-main .isVip .username:hover, 
+#chat .chat-main .isVip .username:visited{
+    color: #878c8e!important;
 }
 
-/* DubX Menu                            = = = = = = = = = = =*/
-.isSwordful {
-    border-left: 0px solid #519CD7!important;
-}
-.isSwordful .verSwordful .Javaling,
-.isSwordful .optionSwordful {
-    color: #CCC!important;
-}
-.isSwordful .optionSwordful .Optionling {
-    color: #ccc;
-}
-.optionSwordful .titleClass .istitle {
-    color: #519CD7!important;
-}
-.onErr .container .control .confirm {
-    background: #519CD7!important;
+#chat .chat-main .isResident-dj .username, 
+#chat .chat-main .isResident-dj .username:hover, 
+#chat .chat-main .isResident-dj .username:visited{
+    color: #878c8e !important;
 }
 
-/* Not logged in                            = = = = = = = = = = =*/
-#login-model-window .login-model-container {
-    background: #111;
+/* User tab */
+#main_avatar_room #main-user-list-room #avatar-list li p.username{
+    color: #ddd;
 }
-#login-model-window .login-model-container input[type=submit] {
-    background: #519CD7;
-    color: #111;
+#main_avatar_room #main-user-list-room #avatar-list li p.username:hover,
+#main_avatar_room #main-user-list-room #avatar-list li.admin p.username:after, 
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username:after, 
+#main_avatar_room #main-user-list-room #avatar-list li.creator p.username:after, 
+#main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username:after, 
+#main_avatar_room #main-user-list-room #avatar-list li.manager p.username:after, 
+#main_avatar_room #main-user-list-room #avatar-list li.mod p.username:after, 
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username:after, 
+#main_avatar_room #main-user-list-room #avatar-list li.vip p.username:after, 
+#main_avatar_room #main-user-list-room #avatar-list li:after p.username:after {
+    color: #6BCAE2;
 }
-#login-model-window .login-model-container .account-actions a {
-    color: #CCC;
+
+/* Options tab */
+#chat .chat-options .chat-option-header {
+    font-size: 1em;
+    color: #ddd;
 }
-#login-model-window .login-model-container:after {
-    opacity: 0.75;
-    border: .375em solid #111;
+#chat .chat-options .chat-option-buttons span.active i {
+    color: #6BCAE2;
 }
-#header_login,
-#header_login a {
-    background: #519CD7;
-    color: #111;
+#chat .chat-options .chat-option-buttons span.active i:hover {
+    color: #222;
 }
-#login-model-window .login-model-container .err-message {
-    color: #D7519C;
-    border: 1px solid #D7519C;
-    font-size: 0.8em;
+#chat .chat-options .chat-option-buttons.chat-option-buttons-display span,
+#chat .chat-options .chat-option-buttons.chat-option-buttons-sound span {
+    background: rgba(51,51,51,0.25);
+    color: #aaa;
 }
-#login-model-window .login-model-container .success-message {
-    color: #519CD7;
-    border: 1px solid #519CD7;
-    font-size: 0.8em;
+#chat .chat-options .chat-option-buttons.chat-option-buttons-display span:hover,
+#chat .chat-options .chat-option-buttons.chat-option-buttons-sound span:hover {
+    border: 1px solid #6BCAE2;
+    background: #6BCAE2;
+	color: #222!important;
 }
+#main_player .play-song-link {
+    background: rgba(0,0,0,.75);
+}
+
+/* User popup */
+
+
+/* Video (Main player - left) */
+	/* Header */
+#main_player .player_header span.active {
+    background: #6BCAE2;
+    color: #222;
+    opacity: 1;
+}
+#main_player .player_header span {
+    background: rgba(255,255,255,.8);
+    color: #222;
+    opacity: 1;
+}
+	/* Room info */
+#room-info-display .room-info-display-container > h2 > span > i {
+    color: #6BCAE2;
+}
+#room-info-display .room-info-display-wrapper .description {
+	color: #ddd;
+}
+#room-info-display .room-info-display-container .autolink,
+#room-info-display .room-info-display-container .autolink:visited:hover{
+    color: #6BCAE2;
+}
+#room-info-display .room-info-display-container .autolink:visited {
+	color: #0063a6;
+}
+
+	/* Mod controls */
+#main_player #mods-controllers .mod-controllers-headers .active,
+#mods-controllers .mods-controllers-wrapper .mods-controllers-ban-list.show-controller .user-list li .actions:hover, 
+#mods-controllers .mods-controllers-wrapper .mods-controllers-mute-list.show-controller .user-list li .actions:hover {
+    color: #6BCAE2;
+}
+#mods-controllers .mods-controllers-wrapper .mods-controllers-commands-list.show-controller .skip-el:hover {
+    background: #6BCAE2;
+    color: #222;
+}
+
+#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min {
+    background: #6BCAE2;
+}
+#main_player .play-song-link i,
+#main_player .icon-facebook:hover,
+#main_player .icon-twitter:hover,
+#main_player .player_sharing .player-controller-container span:hover,
+#main_player .player_sharing span.icon-history.eta_tooltip_t:hover,
+#main_player .player_container .loading.loading-el,
+#main_player .videoquality-el.show:hover {
+    color: #6BCAE2;
+}
+#main_player .player_sharing .player-controller-container span,
+#main_player .player_sharing .player-controller-container span.videoquality-el.active-hd,
+#main_player .player_sharing .player-controller-container span.videoquality-el.active-hd:hover {
+    color: #ddd;
+}
+#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-handle:hover,
+#main_player .player_header span:hover,
+#main_player .play-song-link .queue-info {
+    background: #6BCAE2;
+    color: #222;
+}
+
+/* Playlist browser */
+	/* Header */
+#browser .browser-content .browser-content-header {
+    background: #444;
+}
+#browser .browser-content .browser-content-header .form input {
+    background: #333;
+}
+#browser .browser-content .browser-content-header .close-browser {
+    background: #444;
+    color: #ddd;
+}
+#browser .browser-content .browser-content-header .close-browser:hover {
+    background: #6BCAE2;
+    color: #222;
+}
+#browser .browser-content .browser-content-main .sidebar {
+    background: #2f2f2f;
+}
+
+/* Lobby */
+#room-list .room-loby-header .links-container a {
+    color: #ddd;
+}
+#room-list .room-loby-header .links-container a:hover,
+#room-list #container-room-list .room-item header:hover {
+    color: #6BCAE2;
+    cursor: pointer;
+}
+#room-list #container-room-list .room-item .roomImage .join {
+    background: rgba(107,202,226,.25);
+    color: #fff;
+}
+
+#roomFormUpdate form .modal-footer.mainForm button:hover {
+    background: #6BCAE2;
+    color: #222;
+}
+
+/*#chat .chat-container .chat-messages .chat-main {
+  filter: url("data:image/svg+xml;utf9,<svg%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'><filter%20id='blur'><feGaussianBlur%20stdDeviation='10'%20/></filter></svg>#blur");
+  -webkit-filter:blur(10px);
+  -ms-filter: blur(10px);
+  -o-filter: blur(10px);
+  filter: blur(10px);
+}*/
+/*#chat .chat-container .chat-messages .chat-main li.user-55ff487a9ada760300c04ed2 .stream-item-content .image_row {
+    display: none;
+}*/
+
