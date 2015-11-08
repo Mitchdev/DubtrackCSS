@@ -491,15 +491,24 @@ body {
     background: rgba(40,40,45,1);
     color: #ddd;
 }
-#browser .browser-content .browser-content-header .form input,
+#browser .browser-content .browser-content-header .form input {
+    background: rgba(60,60,66,1);
+    color: #ddd;
+}
 #browser .browser-content .browser-content-header .form .music-type-select,
 #browser .browser-content .browser-content-header .form .music-type-select .music-type-dropdown {
-    background: rgba(60,60,66,1);
+    background: rgba(40,40,45,1);
     color: #ddd;
 }
 #browser .browser-content .browser-content-header .form .music-type-select .music-type-dropdown span:hover {
     background: #5A93CC;
     color: #222;
+}
+#browser .browser-content .browser-content-header .form .music-type-select .music-type-dropdown {
+    margin-top: 2.5rem;
+}
+#browser .browser-content .browser-content-header .form .music-type-select .music-type-dropdown span {
+    height: 2.5rem;
 }
 #browser .browser-content .browser-content-header .close-browser:hover {
     background: #5A93CC;
@@ -533,10 +542,23 @@ body {
 #browser .browser-content .browser-content-main .sidebar .create-playlist:hover .create-playlist-display span{
     color: #222;
 }
+#browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-form .icon-createplaylist {
+    background: transparent;
+}
+#browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-form:not(:hover) .icon-createplaylist,
+#browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-form:not(:hover) .icon-createplaylist:before {
+    background: transparent;
+    color: #5A93CC;
+}
+
     /* Video results container */
 #browser .browser-content .browser-content-main .nano .loading {
+    padding: 14px 24px;
     background: #5A93CC;
     color: #222;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 2px;
 }
 #browser .browser-content .browser-content-main .nano .content-videos {
     background: rgba(0,0,0,0);
@@ -548,13 +570,25 @@ body {
 }
 #browser .browser-content .browser-content-main .nano .content-videos .playlist_info .right a.text-button, 
 #browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a.text-button {
-    background: rgba(60,60,66,1);
+    background: rgba(40,40,45,1);
     color: #ddd;
     padding: 0.99rem 2rem;
     border: 0px solid rgba(40,40,45,1);
     margin: 0px 0px 0px 0px;
     border-bottom: 1px solid rgba(40,40,45,1);
 }
+#browser .browser-content .browser-content-main .nano .content-videos .playlist_info .right a.icon-shuffle.shuffle-playlist, 
+#browser .browser-content .browser-content-main .nano .content-videos .playlist_info .right a.icon-trash.delete-playlist {
+    background: rgba(40,40,45,1);
+    color: #ddd;
+    padding: 1.25rem 2rem;
+    border: 0px solid rgba(40,40,45,1);
+    border-bottom: 1px solid rgba(40,40,45,1);
+}
+#browser .browser-content .browser-content-main .nano .content-videos .playlist_info .right a.icon-shuffle.shuffle-playlist {
+    margin: 0px 168px 0px 0px;
+}
+
 #browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a.text-button.pause-queue.pause-queue-browser-bth {
     border-left: 1px solid rgba(40,40,45,1);
 }
@@ -563,6 +597,8 @@ body {
     border-left: 1px solid rgba(40,40,45,1);
     margin: 0px 168px 0px 0px;
 }
+#browser .browser-content .browser-content-main .nano .content-videos .playlist_info .right a.icon-shuffle.shuffle-playlist:hover, 
+#browser .browser-content .browser-content-main .nano .content-videos .playlist_info .right a.icon-trash.delete-playlist:hover,
 #browser .browser-content .browser-content-main .nano .content-videos .playlist_info .right a.text-button:hover, 
 #browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a.text-button:hover {
     background: #5A93CC;
@@ -574,13 +610,14 @@ body {
     color: #ddd;
     padding: 1.22rem 2.8rem;
     border: 1px solid rgba(40,40,45,1);
-    margin: 0px 0px 0px 0px;
+    margin: 0px 168px 0px 0px;
 }
 #browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a.icon-lock.room-queue-lock:hover,
 #browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a.icon-unlocked.room-queue-unlock:hover {
     background: #5A93CC;
     color: #222;
 }
+
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item, 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item, 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item, 
@@ -588,6 +625,7 @@ body {
     background: rgba(0,0,0,0);
     border: 1px solid rgba(40,40,45,1);
     border-bottom: 1px solid rgba(60,60,66,1);
+    cursor: default;
 }
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item.selected, 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item.selected, 
@@ -595,41 +633,63 @@ body {
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item.selected {
     border: 1px solid #5A93CC;
 }
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .preview,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .description .preview, 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .description .preview {
     color: #5A93CC;
+    cursor: pointer;
 }
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .playedby,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .description .playedby {
     color: #aaa;
     font-weight: 400;
 }
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .playedby b,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .description .playedby b {
     color: #fff;
 }
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .img_bg.remove_icon:hover,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .set_song_to_top_queue:hover,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions a.img_bg.add_to_playlist:hover,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems .history-item .actions .img_bg.add_to_queue:hover,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems .history-item .actions .img_bg.add_to_playlist:hover,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems.display-mod-controls .room-queue-item .actions .remove_dj:hover, 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems.display-mod-controls .room-queue-item .actions .set_song_to_top_queue:hover {
     background: #5A93CC;
     color: #222;
 }
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .img_bg.remove_icon,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .set_song_to_top_queue,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions a.img_bg.add_to_playlist,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems.display-mod-controls .room-queue-item .actions .remove_dj, 
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems.display-mod-controls .room-queue-item .actions .set_song_to_top_queue {
+    background: rgba(40,40,45,1);;
+    color: #eee;
+}
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions a.img_bg.add_to_playlist:hover span.icon-heart:before {
     color: #222;
 }
 
-/*#chat .chat-container .chat-messages .chat-main {
+/*
+#chat .chat-container .chat-messages .chat-main {
   filter: url("data:image/svg+xml;utf9,<svg%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'><filter%20id='blur'><feGaussianBlur%20stdDeviation='10'%20/></filter></svg>#blur");
   -webkit-filter:blur(10px);
   -ms-filter: blur(10px);
   -o-filter: blur(10px);
   filter: blur(10px);
-}*/
-/*#chat .chat-container .chat-messages .chat-main li.user-55ff487a9ada760300c04ed2 .stream-item-content .image_row {
+}
+*/
+/*
+#chat .chat-container .chat-messages .chat-main li.user-55ff487a9ada760300c04ed2 .stream-item-content .image_row {
     display: none;
-}*/
+}
+*/
 
 /* DubX */
     /* Dropdown */
 .for_content {
     height: calc(100% - 114px);
     top: 58px;
-    background: rgba(0,0,0,.66);
+    background: rgba(10,10,15,0.66);
 }
