@@ -228,7 +228,7 @@ body {
 #chat .chat-container .chat-messages .chat-main li.system, 
 #chat .chat-container .chat-messages .chat-main li.system-error {
     font-size: 0.9em;
-    font-weight: 600;
+    font-weight: 700;
     color: #CC5A93!important;
     opacity: 1;
     text-align: center;
@@ -297,19 +297,13 @@ body {
     text-shadow: 0px 0px 1px rgba(0,0,0,0.3);
 }
 #chat .chat-container ul.chat-main li.user-56208ef772fbd14400119c64 .activity-row .text p a.username:before { /* Roomba new */
-/*    content: url(https://rawgit.com/PossiblyKris/DubtrackCSS/master/assets/icons/roomba.png);*/
+    content: url(https://rawgit.com/PossiblyKris/DubtrackCSS/master/assets/icons/roomba.png);
     position: relative;
     top: 3px;
     padding-right: 4px;
 }
 
     /* Special Users */
-#chat .chat-main .isOwner .username, 
-#chat .chat-main .isOwner .username:hover, 
-#chat .chat-main .isOwner .username:visited {
-    color: #fff!important;
-}
-
 #chat .chat-main .isCo-owner .username, 
 #chat .chat-main .isCo-owner .username:hover, 
 #chat .chat-main .isCo-owner .username:visited {
@@ -358,28 +352,28 @@ body {
 #chat .chat-main .isManager .username:before {
     content: url(https://rawgit.com/PossiblyKris/DubtrackCSS/master/assets/icons/dubmanager.png);
     position: relative;
-    top: 4px;
+    top: 3px;
     padding-right: 4px;
 }
 
 #chat .chat-main .isMod .username:before {
     content: url(https://rawgit.com/PossiblyKris/DubtrackCSS/master/assets/icons/dubmod.png);
     position: relative;
-    top: 4px;
+    top: 3px;
     padding-right: 4px;
 }
 
 #chat .chat-main .isVip .username:before {
     content: url(https://rawgit.com/PossiblyKris/DubtrackCSS/master/assets/icons/dubvip.png);
     position: relative;
-    top: 4px;
+    top: 2px;
     padding-right: 4px;
 }
 
 #chat .chat-main .isResident-dj .username:before {
     content: url(https://rawgit.com/PossiblyKris/DubtrackCSS/master/assets/icons/dubrdj.png);
     position: relative;
-    top: 4px;
+    top: 3px;
     padding-right: 2px;
 }
 */
@@ -415,15 +409,57 @@ body {
 #chat .chat-options .chat-option-buttons.chat-option-buttons-display span,
 #chat .chat-options .chat-option-buttons.chat-option-buttons-sound span {
     background: rgba(51,51,51,0.25);
-    color: #aaa;
+    color: #aab;
 }
 #chat .chat-options .chat-option-buttons.chat-option-buttons-display span:hover,
 #chat .chat-options .chat-option-buttons.chat-option-buttons-sound span:hover {
     background: #5A93CC;
-    color: #222!important;
+    color: #223!important;
 }
 
 /* User popup */
+#user_popover {
+    border-radius: 1rem;
+    background: rgba(20,20,24,0.9);
+    
+    min-width: 304px;
+    min-width: 19rem;
+    overflow: hidden;
+}
+#user_popover .usercontent header h3 {
+    color: #eef;
+}
+#user_popover .usercontent header .dubs {
+    color: #ccd;
+}
+#user_popover .actions,
+#user_popover .global-actions {
+    background: rgba(50,50,58,0.33);
+}
+#user_popover .actions a,
+#user_popover .global-actions a {
+    color: #aab;
+    border-top: 1px solid #334;
+    outline: none;
+    font-weight: 400;
+}
+#user_popover .actions a:hover,
+#user_popover .global-actions a:hover {
+    background: #5A93CC;
+    color: #223;
+    font-weight: 700;
+}
+#user_popover .actions a input {
+    vertical-align: middle;
+    border-radius: 0rem;
+    border: 1px solid #556;
+    background: rgba(50,50,58,0.4);
+    color: #dde;
+    padding: 2.4px 8px;
+    padding: .15rem .5rem;
+    width: 64px;
+    width: 4rem;
+}
 
 
 /* Video (Main player - left) */
@@ -456,7 +492,6 @@ body {
     color: #0063a6;
 }
 
-
     /* Mod controls */
 #main_player #mods-controllers .mod-controllers-headers .active,
 #mods-controllers .mods-controllers-wrapper .mods-controllers-ban-list.show-controller .user-list li .actions:hover, 
@@ -467,7 +502,6 @@ body {
     background: #5A93CC;
     color: #222;
 }
-
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min {
     background: #5A93CC;
 }
@@ -574,6 +608,7 @@ body {
     font-weight: 700;
     border-radius: 2px;
 }
+
 #browser .browser-content .browser-content-main .nano .content-videos {
     background: rgba(0,0,0,0);
 }
@@ -581,6 +616,10 @@ body {
 #browser .browser-content .browser-content-main .nano .content-videos .queue_info {
     background: rgba(0,0,0,0);
     border-bottom: 1px solid rgba(60,60,66,1);
+}
+#browser .browser-content .browser-content-main .nano .content-videos .playlist_info input, 
+#browser .browser-content .browser-content-main .nano .content-videos .playlist_info .description {
+    background: rgba(60,60,66,1);
 }
 #browser .browser-content .browser-content-main .nano .content-videos .playlist_info .right a.text-button, 
 #browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a.text-button {
@@ -665,9 +704,13 @@ body {
 }
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .img_bg.remove_icon:hover,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .set_song_to_top_queue:hover,
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions a.img_bg.add_to_playlist:hover,
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems .history-item .actions .img_bg.add_to_queue:hover,
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems .history-item .actions .img_bg.add_to_playlist:hover,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .img_bg.add_to_playlist:hover,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .actions .img_bg.add_to_queue:hover,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .actions .img_bg.add_to_playlist:hover,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .actions .set_song_to_top_queue:hover,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .actions .img_bg.add_to_queue:hover,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .actions .img_bg.add_to_playlist:hover,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .actions .img_bg.remove_icon:hover,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems.display-mod-controls .room-queue-item .actions .remove_dj:hover, 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems.display-mod-controls .room-queue-item .actions .set_song_to_top_queue:hover {
     background: #5A93CC;
@@ -675,7 +718,13 @@ body {
 }
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .img_bg.remove_icon,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .set_song_to_top_queue,
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions a.img_bg.add_to_playlist,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .img_bg.add_to_playlist,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .actions .img_bg.add_to_queue,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .actions .img_bg.add_to_playlist,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .actions .set_song_to_top_queue,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .actions .img_bg.add_to_queue,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .actions .img_bg.add_to_playlist,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .actions .img_bg.remove_icon,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems.display-mod-controls .room-queue-item .actions .remove_dj, 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems.display-mod-controls .room-queue-item .actions .set_song_to_top_queue {
     background: rgba(40,40,45,1);;
