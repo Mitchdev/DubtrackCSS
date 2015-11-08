@@ -801,7 +801,52 @@ body {
 /* DubX */
     /* Dropdown */
 .for_content {
-    height: calc(100% - 114px);
-    top: 58px;
-    background: rgba(10,10,15,0.66);
+    height: calc(100% - 114px)!important;
+    top: 58px!important;
+    background: rgba(10,10,15,0.66)!important;
+}
+.for_content_ver {
+    color: #fff!important;
+}
+.for_content_version {
+    color: #aaa!important;
+}
+.for_content_c {
+    border-bottom: 1px solid #ddd!important;
+}
+.for_content_p {
+    color: #eee!important;
+}
+.for_content_off {
+    color: #eee!important;
+}
+    /* Dialog */
+.onErr .container {
+    background: rgba(20,20,25,0.9)!important;
+    color: #eee!important;
+}
+.onErr .container .title {
+    background: rgba(50,50,55,0.66)!important;
+}
+.onErr .container .content .input {
+    background: rgba(50,50,55,0.66)!important;
+    color: #eee!important;
+}
+.onErr .container .control .cancel {
+    background: rgba(50,50,55,0.66)!important;
+}
+.onErr .container .control .confirm {
+    background: rgba(50,50,55,0.66)!important;
+}
+.onErr .container .control .confirm:hover {
+    background: #5A93CC!important;
+    opacity: 0.75!important;
+    color: #222!important;
+    font-weight: 700!important;
+}
+.onErr .container .control .cancel:hover {
+    background: #CC5A93!important;
+    opacity: 0.75!important;
+    color: #222!important;
+    font-weight: 700!important;
 }
