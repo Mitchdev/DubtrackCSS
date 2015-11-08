@@ -51,6 +51,15 @@ body {
     background-image: url(https://raw.githubusercontent.com/PossiblyKris/DubtrackCSS/master/assets/icons/cm.png);
     background-size: 2rem 2rem;
 }
+/*
+#main-room-active-link .room-name:after {
+    content: " Sample text";
+    display: block;
+    position: absolute;
+    margin-top: -24px;
+    margin-left: 166px;
+}
+*/
 
 /* Bottom bar */
 #player-controller {
@@ -63,6 +72,10 @@ body {
 #player-controller .left {
     /*background: rgba(40, 44, 47, 0.7);*/
     background: rgba(0,0,0,0.0);
+}
+#player-controller .left ul li.infoContainer .infoContainerInner .currentDJSong {
+    color: #5A93CC;
+    font-size: .9rem;
 }
 #player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
     background: #5A93CC;
@@ -169,7 +182,6 @@ body {
     background: rgba(107,202,226,.25);
     color: #fff;
 }
-
 #roomFormUpdate form .modal-footer.mainForm button:hover {
     background: #5A93CC;
     color: #222;
@@ -180,12 +192,12 @@ body {
     background: rgba(10,10,15,.66);
 }
 #chat .chat_tools span:after {
-    border: 1px solid #fff;
+    border: 1px solid #ddd;
 }
-#chat .chat_tools span.display-chat,
+#chat .chat_tools .display-chat,
 #main-room.display-users-rooms #chat .display-room-users,
 #main-room.display-chat-settings #chat .display-chat-settings,
-#chat .chat_tools span.icon-chatsettings:hover,
+#chat .chat_tools .icon-chatsettings:hover,
 #chat .chat_tools .display-room-users.icon-people:hover,
 #main-room.display-users-rooms #chat .display-chat:hover, 
 #main-room.display-users-rooms #chat .display-chat-settings:hover,
@@ -220,6 +232,7 @@ body {
     color: #CC5A93!important;
     opacity: 1;
     text-align: center;
+    text-shadow: 0px 0px 1px rgba(0,0,0,0.3);
 }
 #chat .chat-container .chat-messages .chat-main li {
     font-size: .9rem;
@@ -280,7 +293,8 @@ body {
     color: #CC5A93!important;
     font-weight: 600!important;
     font-size: 1em;
-    text-shadow: 0px 0px 1px #000;
+    
+    text-shadow: 0px 0px 1px rgba(0,0,0,0.3);
 }
 #chat .chat-container ul.chat-main li.user-56208ef772fbd14400119c64 .activity-row .text p a.username:before { /* Roomba new */
 /*    content: url(https://rawgit.com/PossiblyKris/DubtrackCSS/master/assets/icons/roomba.png);*/
