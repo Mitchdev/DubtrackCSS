@@ -200,6 +200,7 @@ body {
 #chat .pusher-chat-widget-input #new-messages-counter {
     background: #5A93CC;
     color: #222;
+    opacity: 1;
 }
 #chat .chat-container ul.chat-main li:focus .chatDelete, 
 #chat .chat-container ul.chat-main li:hover .chatDelete {
